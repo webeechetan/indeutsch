@@ -1,0 +1,9 @@
+$body_font: 'Inter', sans-serif;
+$title_font: 'Poppins', sans-serif;
+
+// Mixin
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
