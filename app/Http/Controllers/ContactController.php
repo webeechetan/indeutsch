@@ -58,12 +58,9 @@ class ContactController extends Controller
         $contact->message = $request['message'];
 
         if($contact->save()) {
-           
-             $this->alert('Success','Thank you for submiting','success');
-             return redirect()->route('contactUs');
-           // return redirect()->route('contactUs')->with('message', 'Thank you for submitting');
+           return redirect()->route('contactUs')->with('success', 'Thank you for submitting');
         }
-         return redirect()->back();
+        return redirect()->route('contactUs')->with('error', 'An error occurred. Please try again later.');
      
     }
 
@@ -99,13 +96,4 @@ class ContactController extends Controller
         //
     }
 
-
-    private function alert($msg, $body, $type)
-    {
-        session()->flash('alert', [
-            'msg' => $msg,
-            'body' => $body,
-            'type' => $type
-        ]);
-    }
 }

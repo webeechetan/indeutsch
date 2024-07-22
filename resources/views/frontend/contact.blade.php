@@ -44,6 +44,17 @@
 						<div class="contact-form">   
 
 							<h2 class="title-wrap-20">Contact Us</h2>
+							@if(session('success'))
+							<div class="alert alert-success">
+								{{ session('success') }}
+							</div>
+							@endif
+
+							@if(session('error'))
+							<div class="alert alert-danger">
+								{{ session('error') }}
+							</div>
+							@endif
 
 							<!-- <h6 class="mb-4">Let's Connect</h6> -->
 
