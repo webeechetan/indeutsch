@@ -953,7 +953,7 @@
 
 					<div class="footer-connect-right">
 
-						<a href="contact.php" class="custom-button custom-button-bg-white">Let's Connect</a>
+						<a href="{{route('contactUs')}}" class="custom-button custom-button-bg-white">Let's Connect</a>
 
 					</div>
 

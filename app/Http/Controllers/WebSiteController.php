@@ -24,10 +24,17 @@ class WebSiteController extends Controller
         return view('frontend.initiatives');
     }
 
+    public function viewGreenInitiatives()
+    {
+        return view('frontend.green-initatives');
+    }
+
     public function viewContactUs()
     {
         return view('frontend.contact');
     }
+
+  
 
     /**
      * Show the form for creating a new resource.

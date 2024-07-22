@@ -22,7 +22,7 @@
     </li>
 
     <!-- Category -->
-    <li class="menu-item">
+    {{-- <li class="menu-item">
       <a href="javascript:void(0);" class="menu-link menu-toggle">
         <i class="menu-icon tf-icons bx bx-collection"></i>
        
@@ -41,32 +41,32 @@
         </li>
        
       </ul>
-    </li>
+    </li> --}}
 
      <!-- Category -->
-    <li class="menu-item">
-    <a href="javascript:void(0);" class="menu-link menu-toggle">
-      <i class="menu-icon tf-icons bx bx-collection"></i>
-      
-      <div class="text-truncate" data-i18n="Sub-Category">Sub-Category</div>
-    </a>
-    <ul class="menu-sub">
-      <li class="menu-item active">
-        <a href="{{route('subcategory.index')}}" class="menu-link">
-          <div class="text-truncate" data-i18n="Sub-Category">Sub-Category</div>
-        </a>
-      </li>
-      <li class="menu-item">
-        <a href="{{route('subcategory.create')}}" class="menu-link">
-          <div class="text-truncate" data-i18n="New SubCategory">New SubCategory</div>
-        </a>
-      </li>
-      
-    </ul>
-    </li>
+    {{-- <li class="menu-item">
+      <a href="javascript:void(0);" class="menu-link menu-toggle">
+        <i class="menu-icon tf-icons bx bx-collection"></i>
+        
+        <div class="text-truncate" data-i18n="Sub-Category">Sub-Category</div>
+      </a>
+      <ul class="menu-sub">
+        <li class="menu-item active">
+          <a href="{{route('subcategory.index')}}" class="menu-link">
+            <div class="text-truncate" data-i18n="Sub-Category">Sub-Category</div>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="{{route('subcategory.create')}}" class="menu-link">
+            <div class="text-truncate" data-i18n="New SubCategory">New SubCategory</div>
+          </a>
+        </li>
+        
+      </ul>
+    </li> --}}
    
        <!-- Product -->
-    <li class="menu-item">
+    {{-- <li class="menu-item">
       <a href="javascript:void(0);" class="menu-link menu-toggle">
         <i class="menu-icon tf-icons bx bx-collection"></i>
         
@@ -85,6 +85,13 @@
         </li>
         
       </ul>
+    </li> --}}
+
+    <li class="menu-item">
+      <a href="{{route('admin.contact')}}" class="menu-link">
+        <i class="menu-icon tf-icons bx bx-message-rounded-dots"></i>
+        <div class="text-truncate" data-i18n="Contact">Contacts Us</div>
+      </a>
     </li>
      
     

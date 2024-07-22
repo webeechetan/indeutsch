@@ -13,7 +13,8 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        $contacts = Contact::all();
+        return view('admin.contact.index', compact('contacts')); 
     }
 
     /**
@@ -21,7 +22,7 @@ class ContactController extends Controller
      */
     public function create()
     {
-        //
+       
     }
 
     /**
@@ -29,7 +30,41 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        
+
+        $rules = [
+            'first_name' => 'required',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|digits_between:7,12',
+        ];
+
+        $messages = [
+            'first_name.required' => 'Please enter your first name.',
+            'email.required' => 'Please enter your email address.',
+            'email.email' => 'The email address must be a valid email format.',
+            'phone.required' => 'Please enter your phone number.',
+            'phone.digits_between' => 'Phone number must be between 7 and 12 digits.',
+        ];
+
+        // Validate the request
+        $request->validate($rules, $messages);
+
+        $contact = new Contact();
+
+        $contact->first_name = $request['first_name'];
+        $contact->last_name = $request['last_name'];
+        $contact->email = $request['email'];
+        $contact->phone = $request['phone'];
+        $contact->category = $request['category'];
+        $contact->message = $request['message'];
+
+        if($contact->save()) {
+           
+             $this->alert('Success','Thank you for submiting','success');
+             return redirect()->route('contactUs');
+           // return redirect()->route('contactUs')->with('message', 'Thank you for submitting');
+        }
+         return redirect()->back();
+     
     }
 
     /**
@@ -62,5 +97,15 @@ class ContactController extends Controller
     public function destroy(string $id)
     {
         //
+    }
+
+
+    private function alert($msg, $body, $type)
+    {
+        session()->flash('alert', [
+            'msg' => $msg,
+            'body' => $body,
+            'type' => $type
+        ]);
     }
 }
