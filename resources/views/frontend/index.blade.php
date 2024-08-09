@@ -180,190 +180,98 @@
     <!-- Certifications -->
 
     <section class="certifications-sec">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-xl-8 col-lg-9 col-lg-10 mx-auto text-center title-wrap-20">
-
-                    <h2 class="title-wrap-20"> Our Certifications</h2>
-
-                    <!-- <p>Explore our extensive selection of certificates that are geared to advance your career and demonstrate your skills. Our certifications are a great tool for achieving your goals and a sign of your dedication to professional development.</p> -->
-
-                </div>
-
-                <div class="col-12">
-
-                    <ul class="certifications-icons list-style-none">
-
-
-
-                        <!-- Certificate 1 -->
-
-                        <li>
-
-                            <div class="certifications-icons-item">
-
-                                <img src="{{ asset('frontend') }}/assets/images/certifications/certificate_1.png" alt="Certificate">
-
-                                <a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/ISO_9001_2015.pdf"><i class='bx bx-link-external'></i></a>
-
-                            </div>
-
-                            <div class="font-weight-600">ISO 9001:2015</div>
-
-                            <a class="custom-link certifications-btn-view d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/ISO_9001_2015.pdf">View</a>
-
-                        </li>
-
-
-
-                        <!-- Certificate 2 -->
-
-                        <li>
-
-                            <div class="certifications-icons-item">
-
-                                <img src="{{ asset('frontend') }}/assets/images/certifications/certificate_2.png" alt="Certificate">
-
-                                <a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/ISO_14001_2015.pdf"><i class='bx bx-link-external'></i></a>
-
-                            </div>
-
-                            <div class="font-weight-600">ISO 14001:2015</div>
-
-                            <a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/ISO_14001_2015.pdf">View</a>
-
-                        </li>
-
-
-
-                        <!-- Certificate 3 -->
-
-                        <li>
-
-                            <div class="certifications-icons-item">
-
-                                <img src="{{ asset('frontend') }}/assets/images/certifications/certificate_3.png" alt="Certificate">
-
-                                <a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/ISO_45001_2018_NEW_CERTIFICATE_for_6_sites.pdf"><i class='bx bx-link-external'></i></a>
-
-                            </div>
-
-                            <div class="font-weight-600">ISO 45001:2018</div>
-
-                            <a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/ISO_45001_2018_NEW_CERTIFICATE_for_6_sites.pdf">View</a>
-
-                        </li>
-
-
-
-                        <!-- Certificate 4 -->
-
-                        <li>
-
-                            <div class="certifications-icons-item">
-
-                                <img src="{{ asset('frontend') }}/assets/images/certifications/certificate_4.png" alt="Certificate">
-
-                                <a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/ENMS_715868-001.pdf"><i class='bx bx-link-external'></i></a>
-
-                            </div>
-
-                            <div class="font-weight-600">ISO 50001:2018</div>
-
-                            <a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/ENMS_715868-001.pdf">View</a>
-
-                        </li>
-
-
-
-                        <!-- Certificate 5 -->
-
-                        <li>
-
-                            <div class="certifications-icons-item">
-
-                                <img src="{{ asset('frontend') }}/assets/images/certifications/certificate_6.png" alt="Certificate">
-
-                                <a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/INDEUTSCH_PEFC_CERTIFICATE.pdf"><i class='bx bx-link-external'></i></a>
-
-                            </div>
-
-                            <div class="font-weight-600">PEFC (Program For The Endorsement Of Forest Certification)</div>
-
-                            <a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/INDEUTSCH_PEFC_CERTIFICATE.pdf">View</a>
-
-                        </li>
-
-
-
-                        <!-- Certificate 6 -->
-
-                        <li>
-
-                            <div class="certifications-icons-item">
-
-                                <img src="{{ asset('frontend') }}/assets/images/certifications/certificate_5.png" alt="Certificate">
-
-                                <a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/Green_Product_Certificate-Indeutsch-05082023.pdf"><i class='bx bx-link-external'></i></a>
-
-                            </div>
-
-                            <div class="font-weight-600">Green Product Certification</div>
-
-                            <a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/Green_Product_Certificate-Indeutsch-05082023.pdf">View</a>
-
-                        </li>
-
-
-
-                        <!-- Certificate 7 -->
-
-                        <li>
-
-                            <div class="certifications-icons-item">
-
-                                <img src="{{ asset('frontend') }}/assets/images/certifications/certificate_7.png" alt="Certificate">
-
-                                <a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/Indeutsch_Industries_Private_Limited_FSC_COC_Certificate_13_6_2022.pdf"><i class='bx bx-link-external'></i></a>
-
-                            </div>
-
-                            <div class="font-weight-600">FSCTM Certification</div>
-
-                            <a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/Indeutsch_Industries_Private_Limited_FSC_COC_Certificate_13_6_2022.pdf">View</a>
-
-                        </li>
-
-                            <!-- Certificate 8 -->
-
-                            <li>
-
-                            <div class="certifications-icons-item">
-
-                                <img src="{{ asset('frontend') }}/assets/images/certifications/ctpat.png" alt="Certificate">
-
-                                <a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/CTPAT_Certificate_Indeutsch_Industries_Private_Limited.pdf"><i class='bx bx-link-external'></i></a>
-
-                            </div>
-
-                            <div class="font-weight-600">CTPAT Certification</div>
-
-                            <a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="frontend/assets/pdf/CTPAT_Certificate_Indeutsch_Industries_Private_Limited.pdf">View</a>
-
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 col-lg-9 col-lg-10 mx-auto text-center title-wrap-20">
+					<h2 class="title-wrap-20"> Our Certifications</h2>
+					<!-- <p>Explore our extensive selection of certificates that are geared to advance your career and demonstrate your skills. Our certifications are a great tool for achieving your goals and a sign of your dedication to professional development.</p> -->
+				</div>
+				<div class="col-12">
+					<ul class="certifications-icons list-style-none">
+
+						<!-- Certificate 1 -->
+						<li>
+							<div class="certifications-icons-item">
+								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_3.png" alt="Certificate">
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/ISO_9001_2015.pdf"><i class='bx bx-link-external'></i></a>
+							</div>
+							<div class="font-weight-600">ISO 9001:2015</div>
+							<a class="custom-link certifications-btn-view d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/ISO_9001_2015.pdf">View</a>
+						</li>
+
+						<!-- Certificate 2 -->
+						<li>
+							<div class="certifications-icons-item">
+								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_4.png" alt="Certificate">
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/ISO_14001_2015.pdf"><i class='bx bx-link-external'></i></a>
+							</div>
+							<div class="font-weight-600">ISO 14001:2015</div>
+							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/ISO_14001_2015.pdf">View</a>
+						</li>
+
+						<!-- Certificate 3 -->
+						<li>
+							<div class="certifications-icons-item">
+								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_2.png" alt="Certificate">
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/ISO_45001_2018_NEW_CERTIFICATE_for_6_sites.pdf"><i class='bx bx-link-external'></i></a>
+							</div>
+							<div class="font-weight-600">ISO 45001:2018</div>
+							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/ISO_45001_2018_NEW_CERTIFICATE_for_6_sites.pdf">View</a>
+						</li>
+
+						<!-- Certificate 4 -->
+						<li>
+							<div class="certifications-icons-item">
+								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_1.png" alt="Certificate">
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/ENMS_715868-001.pdf"><i class='bx bx-link-external'></i></a>
+							</div>
+							<div class="font-weight-600">ISO 50001:2018</div>
+							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/ENMS_715868-001.pdf">View</a>
+						</li>
+
+						<!-- Certificate 5 -->
+						<li>
+							<div class="certifications-icons-item">
+								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_6.png" alt="Certificate">
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/INDEUTSCH_PEFC_CERTIFICATE.pdf"><i class='bx bx-link-external'></i></a>
+							</div>
+							<div class="font-weight-600">PEFC (Program For The Endorsement Of Forest Certification)</div>
+							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/INDEUTSCH_PEFC_CERTIFICATE.pdf">View</a>
+						</li>
+
+						<!-- Certificate 6 -->
+						<li>
+							<div class="certifications-icons-item">
+								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_5.png" alt="Certificate">
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Green_Product_Certificate-Indeutsch-05082023.pdf"><i class='bx bx-link-external'></i></a>
+							</div>
+							<div class="font-weight-600">Green Product Certification</div>
+							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Green_Product_Certificate-Indeutsch-05082023.pdf">View</a>
+						</li>
+
+						<!-- Certificate 7 -->
+						<li>
+							<div class="certifications-icons-item">
+								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_7.png" alt="Certificate">
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Indeutsch_Industries_Private_Limited_FSC_COC_Certificate_13_6_2022.pdf"><i class='bx bx-link-external'></i></a>
+							</div>
+							<div class="font-weight-600">FSC<sup>TM</sup> Certification</div>
+							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Indeutsch_Industries_Private_Limited_FSC_COC_Certificate_13_6_2022.pdf">View</a>
+						</li>
+							<!-- Certificate 8 -->
+							<li>
+							<div class="certifications-icons-item">
+								<img src="{{ asset('frontend') }}/assets/images/certifications/ctpat.png" alt="Certificate">
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/CTPAT_Certificate_Indeutsch_Industries_Private_Limited.pdf"><i class='bx bx-link-external'></i></a>
+							</div>
+							<div class="font-weight-600">CTPAT Certification</div>
+							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/CTPAT_Certificate_Indeutsch_Industries_Private_Limited.pdf">View</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 

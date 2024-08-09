@@ -31,6 +31,13 @@ Route::get('/about',[WebSiteController::class,'viewAboutUs'])->name('aboutUs');
 Route::get('/initiatives',[WebSiteController::class,'viewInitiatives'])->name('initiatives');
 Route::get('/green-initatives',[WebSiteController::class,'viewGreenInitiatives'])->name('greenInitiatives');
 Route::get('/contact',[WebSiteController::class,'viewContactUs'])->name('contactUs');
+Route::get('/brushes',[WebSiteController::class,'viewBrushes'])->name('brushes');
+Route::get('/artist-canvas',[WebSiteController::class,'viewArtistCanvas'])->name('artistCanvas');
+Route::get('/art-accessories',[WebSiteController::class,'viewArtaccessories'])->name('artAccessories');
+Route::get('/components',[WebSiteController::class,'viewComponents'])->name('components');
+Route::get('/canvas',[WebSiteController::class,'viewCanvas'])->name('canvas');
+Route::get('/water-color',[WebSiteController::class,'viewWatercolor'])->name('waterColor');
+
 Route::post('/contact',[ContactController::class,'store'])->name('contactUs');
 
 

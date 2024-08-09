@@ -34,6 +34,35 @@ class WebSiteController extends Controller
         return view('frontend.contact');
     }
 
+    public function viewBrushes()
+    {
+        return view('frontend.brushes');
+    }
+
+    public function viewArtistCanvas()
+    {
+        return view('frontend.artistcanvas');
+    }
+
+    public function viewArtaccessories()
+    {
+        return view('frontend.artaccessories');
+    }
+
+    public function viewComponents()
+    {
+        return view('frontend.components');
+    }
+
+    public function viewCanvas()
+    {
+        return view('frontend.canvas');
+    }
+
+    public function viewWatercolor()
+    {
+        return view('frontend.water-color');
+    }
   
 
     /**
