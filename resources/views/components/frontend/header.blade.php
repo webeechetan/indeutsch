@@ -28,9 +28,9 @@
 
                 <ul>
 
-                <li><a <?php if(basename($_SERVER['PHP_SELF']) === 'index.php') echo 'class="active"'; ?> href="{{route('viewIndex')}}">Home</a></li>
+                <li><a class="{{ Route::is('viewIndex') ? 'active' : '' }}" href="{{ route('viewIndex') }}">Home</a></li>
+                <li><a class="{{ Route::is('aboutUs') ? 'active' : '' }}" href="{{ route('aboutUs') }}">About Us</a></li>
 
-                <li><a <?php if(basename($_SERVER['PHP_SELF']) === 'about.php') echo 'class="active"'; ?> href="{{route('aboutUs')}}">About Us</a></li>
 
                     <li class="site-dropdown">
 
@@ -50,9 +50,9 @@
 
                     </li>
 
-                    <li><a <?php if(basename($_SERVER['PHP_SELF']) === 'initiatives.php') echo 'class="active"'; ?> href="{{route('initiatives')}}">initiatives</a></li>
+                <li><a class="{{ Route::is('initiatives') ? 'active' : '' }}" href="{{ route('initiatives') }}">Initiatives</a></li>
+                <li><a class="{{ Route::is('contactUs') ? 'active' : '' }}" href="{{ route('contactUs') }}">Contact Us</a></li>
 
-                    <li><a <?php if(basename($_SERVER['PHP_SELF']) === 'contact.php') echo 'class="active"'; ?> href="{{route('contactUs')}}">Contact Us </a></li>
 
                 </ul>
 
