@@ -38,7 +38,13 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	</head>
 
-	<body <?php echo basename($_SERVER['PHP_SELF']) === 'index.php' ? 'class="alith-magic-cursor navbar-overlap"' : 'class="alith-magic-cursor"'; ?>>
+	<body 
+    @if(request()->routeIs('viewIndex'))
+    class="alith-magic-cursor navbar-overlap"
+    @else
+    class="alith-magic-cursor"
+    @endif
+    >
 
     <!-- Preloader -->
 
