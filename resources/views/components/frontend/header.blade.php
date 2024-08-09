@@ -10,7 +10,7 @@
 
             <div class="logo">
 
-                <a href="index.php">
+                <a href="{{ env('APP_URL') }}">
 
                     <img src="{{ asset('frontend') }}/assets/images/logo-light.png" class="logo-light" alt="Image">
 

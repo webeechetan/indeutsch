@@ -1859,9 +1859,6 @@ iframe {
     filter: grayscale(1);
     opacity: 0.3;
   }
-  .site_footer .copyright{
-   margin-top: 30px !important;
-  }
 }
 @media (max-width: 767px) and (max-width: 768px) {
   .certifications-icons li:hover .certifications-icons-item a.certifications-btn {
