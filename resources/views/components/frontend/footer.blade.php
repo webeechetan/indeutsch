@@ -9,8 +9,8 @@
                 <div class="site_footer-right">
                     <ul class="footer_nav">
                         <li><a class="active" href="#">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="{{ route('aboutUs') }}">About</a></li>
+                        <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
                     </ul>
                     <ul class="social_icons justify-content-end">
                         <li><a href="#"><i class='bx bxl-facebook'></i></a></li>

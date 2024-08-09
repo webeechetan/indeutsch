@@ -67,9 +67,9 @@
 
             <ul>
 
-                <li><a href="index.php">Home</a></li>
+                <li><a href="{{ route('viewIndex') }}">Home</a></li>
 
-                <li><a href="about.php">About Us</a></li>
+                <li><a href="{{ route('aboutUs') }}">About Us</a></li>
 
                 <li class="site-dropdown">
 
@@ -95,9 +95,9 @@
 
                 </li>
 
-                <li><a href="Initiatives.php">Initiatives</a></li>
+                <li><a href="{{ route('initiatives') }}">Initiatives</a></li>
 
-                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
 
             </ul>
 
