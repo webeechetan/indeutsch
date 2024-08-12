@@ -32,17 +32,11 @@
 	<!--- Contact Us-->
 
 	<section class="sec-space border-top">
-
 		<div class="container">
-
 			<div class="contact-box">
-
 				<div class="row">
-
 					<div class="col-lg-6 mb-4 mb-lg-0">
-
 						<div class="contact-form">   
-
 							<h2 class="title-wrap-20">Contact Us</h2>
 							@if(session('success'))
 							<div class="alert alert-success">
@@ -55,7 +49,6 @@
 								{{ session('error') }}
 							</div>
 							@endif
-
 							<!-- <h6 class="mb-4">Let's Connect</h6> -->
 
 							<form action="{{route('contactUs')}}" method="post">
@@ -124,9 +117,6 @@
 										</select> -->
 
                                     </div>
-
-								
-
 									<div class="col-lg-12 mb-4">
 										<div class="form-group">
 											<textarea type="text" name="message" id="address" value="{{ old('message') }}" placeholder="Send Message" rows="4" required></textarea>
@@ -138,54 +128,28 @@
 									</div>
 
 									<div class="col-lg-12">
-
 										<Button class="btn btn-secondary" >Connect Us</Button>
-
 									</div>
-
 								</div>
-
 							</form>
-
 						</div>
-
 					</div>
 
 					<div class="col-lg-6">
-
 						<div class="contact-banner">
-
 							<img src="{{ asset('frontend') }}/assets/images/contact_banner.jpg" alt="">
-
 							<div class="contact-content">
-
 								<ul class="list-unstyled mb-0">
-
 									<li class="mb-2"><a href="mailto:indeutsch@outlook.com"><span class="bx bx-location-plus me-2 text-accent"></span> indeutsch@outlook.com</a></li>
-
 									<li class="mb-2"><a href="tel:+91-120-4055800"><span class="bx bx-phone me-2 text-accent"></span> +91-120-4055800</a></li>
 									<li class="mb-2"><a href="tel:+91 7986249828"><span class="bx bx-phone me-2 text-accent"></span> +91 7986249828</a></li>
-
-									<li class="d-flex gap-1 align-items-start"><span class="bx bx-envelope me-2 text-accent"></span> Plot 30, Noida Special Economic Zone, Noida 201305, Uttar Pradesh, India</li>
-
-									
-
+									<li class="d-flex gap-1 align-items-start"><span class="bx bx-envelope me-2 text-accent"></span>SDF, E-7 & 8, Noida Special Economic Zone, Noida-201 305, U.P., (India)</li>
 								</ul>
-
 							</div>
-
 						</div>
-
-
-
 					</div>
-
 				</div>
-
 			</div>
-
 		</div>
-
 	</section>
-
 @endsection

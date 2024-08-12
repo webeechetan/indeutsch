@@ -14,11 +14,10 @@
 
                     </ul>
                     <ul class="social_icons justify-content-end">
-                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
-                        <li><a href="#"><i class='bx bxl-pinterest-alt' ></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/indeutsch-industries/" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
                     </ul>
+
+                    
                 </div>
             </div>
         </div>
