@@ -14,12 +14,12 @@
 
      <!-- Apps & Pages -->
     
-    <li class="menu-item">
+    {{-- <li class="menu-item">
       <a href="{{route('admin.dashboard') }}" class="menu-link">
         <i class="menu-icon tf-icons bx bx-home-circle"></i>
         <div class="text-truncate" data-i18n="Dashboard">Dashboard</div>
       </a>
-    </li>
+    </li> --}}
 
     <!-- Category -->
     {{-- <li class="menu-item">
@@ -87,7 +87,7 @@
       </ul>
     </li> --}}
 
-    <li class="menu-item">
+    <li class="menu-item @if(Route::is('admin.contact')) active @endif">
       <a href="{{route('admin.contact')}}" class="menu-link">
         <i class="menu-icon tf-icons bx bx-message-rounded-dots"></i>
         <div class="text-truncate" data-i18n="Contact">Contacts Us</div>

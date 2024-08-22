@@ -15,7 +15,10 @@ class ContactController extends Controller
      */
     public function index()
     {
-        $contacts = Contact::all();
+         // $contacts = Contact::all();
+        // $contacts = Contact::paginate(5);
+        $contacts = Contact::orderBy('created_at', 'desc')->paginate(10);
+
         return view('admin.contact.index', compact('contacts')); 
     }
 
@@ -101,9 +104,16 @@ class ContactController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Contact $contact)
     {
-        //
+        try{
+            $contact->delete();
+            // $this->alert('Contact deleted successfully');
+            return redirect()->route('admin.contact');
+        }catch(\Exception $e){
+            $this->alert($e->getMessage());
+            return redirect()->back();
+        }
     }
 
 }

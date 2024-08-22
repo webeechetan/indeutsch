@@ -58,7 +58,7 @@
             @csrf
             <div class="mb-3">
               <label for="email" class="form-label">Email </label>
-              <input type="text" class="form-control" id="email" name="email" value="admin@gmail.com" placeholder="Enter your email or username" autofocus>
+              <input type="text" class="form-control" id="email" name="email" value="" placeholder="Enter your email or username" autofocus>
               @error('email')    
                 <span class="text-danger">{{ $message }}</span>
               @enderror
@@ -68,7 +68,7 @@
                 <label class="form-label" for="password">Password</label>
               </div>
               <div class="input-group input-group-merge">
-                <input type="password" id="password" class="form-control" value="123456" name="password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="password" />
+                <input type="password" id="password" class="form-control" value="" name="password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="password" />
                 <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
               </div>
               @error('password')    
