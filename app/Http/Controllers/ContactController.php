@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Contact;
+use Illuminate\Support\Facades\Notification;
+use App\Notifications\InquiryNotification;
 use Illuminate\Http\Request;
 
 
@@ -33,7 +35,7 @@ class ContactController extends Controller
 
         $rules = [
             'first_name' => 'required',
-            'email' => 'required|email|max:255',
+            'email' => 'required|email|max:255|unique:contacts,email',
             'phone' => 'required|digits_between:7,12',
         ];
 
@@ -41,6 +43,7 @@ class ContactController extends Controller
             'first_name.required' => 'Please enter your first name.',
             'email.required' => 'Please enter your email address.',
             'email.email' => 'The email address must be a valid email format.',
+            'email.unique' => 'This email is already available in our database.',
             'phone.required' => 'Please enter your phone number.',
             'phone.digits_between' => 'Phone number must be between 7 and 12 digits.',
         ];
@@ -58,6 +61,13 @@ class ContactController extends Controller
         $contact->message = $request['message'];
 
         if($contact->save()) {
+
+
+            $adminEmail = 'ajay.kumar@webeesocial.com';          
+            Notification::route('mail', $adminEmail)
+            ->notify(new InquiryNotification($contact->first_name, $contact->email, $contact->phone));
+
+
            return redirect()->route('contactUs')->with('success', 'Thank you for submitting');
         }
         return redirect()->route('contactUs')->with('error', 'An error occurred. Please try again later.');
