@@ -63,9 +63,9 @@ class ContactController extends Controller
         if($contact->save()) {
 
 
-            $adminEmail = 'ajay.kumar@webeesocial.com';          
+            $adminEmail = 'indeutsch@outlook.com';          
             Notification::route('mail', $adminEmail)
-            ->notify(new InquiryNotification($contact->first_name, $contact->email, $contact->phone));
+            ->notify(new InquiryNotification($contact->first_name, $contact->email, $contact->phone, $contact->category));
 
 
            return redirect()->route('contactUs')->with('success', 'Thank you for submitting');

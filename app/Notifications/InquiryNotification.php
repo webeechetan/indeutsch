@@ -13,16 +13,18 @@ class InquiryNotification extends Notification
     public $first_name;
     public $email;
     public $phone;
+    public $category;
   
 
     /**
      * Create a new notification instance.
      */
-    public function __construct($first_name, $email, $phone)
+    public function __construct($first_name, $email, $phone , $category)
     {
         $this->first_name = $first_name;
         $this->email = $email;
         $this->phone = $phone;
+        $this->category = $category;
     }
 
 
@@ -50,6 +52,7 @@ class InquiryNotification extends Notification
                     ->line('Name: ' . $this->first_name)
                     ->line('Email: ' . $this->email)
                     ->line('Phone Number: ' . $this->phone)
+                    ->line('Category: ' . $this->category)
                     ->line('Thank you')
                     ->salutation('Best regards,')
                     ->salutation('Indeutsch');
