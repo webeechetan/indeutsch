@@ -2,15 +2,13 @@
 
 namespace App\Notifications;
 
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
+
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use App\Http\Controllers\ContactController;
 
-class InquiryNotification extends Notification implements ShouldQueue
+class InquiryNotification extends Notification
 {
-    use Queueable;
 
     public $first_name;
     public $email;
