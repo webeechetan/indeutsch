@@ -33,17 +33,11 @@
                             <td>{{ $contact->email }}</td>
                             <td>{{ $contact->phone }}</td>
                             <td>{{ $contact->category }}</td>
-                            {{-- <td>{{ $contact->message }}</td> --}}
                             <td style="word-wrap: break-word; overflow-wrap: break-word; max-width: 250px;">
                                 {{ $contact->message }}
                             </td>
-                            
-                            
                             <td>         
-                                {{-- <form class="confirm-delete" action="{{ route('contact.destroy', $contact->id) }}" method="POST" style="display: inline-block"> --}}
-
-                                    <form action="{{ route('contact.destroy', $contact->id ) }}" method="POST" onsubmit="return confirmDelete()">
-
+                                <form action="{{ route('contact.destroy', $contact->id ) }}" method="POST" onsubmit="return confirmDelete()">
                                   @csrf
                                   @method('DELETE')
                                   <button type="submit" class="btn rounded-pill btn-icon btn-danger btn-sm">
@@ -63,25 +57,6 @@
     </div>
 
 </div>
-
-
-<div class="modal fade" id="messageModal{{ $contact->id }}" tabindex="-1" aria-labelledby="messageModalLabel{{ $contact->id }}" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="messageModalLabel{{ $contact->id }}">Message Details</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                {{ $contact->message }}
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 @endsection
 
 <script>
