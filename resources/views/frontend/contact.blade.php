@@ -143,7 +143,7 @@
 									<li class="mb-2"><a href="mailto:indeutsch@outlook.com"><span class="bx bx-location-plus me-2 text-accent"></span> indeutsch@outlook.com</a></li>
 									<li class="mb-2"><a href="tel:+91-120-4055800"><span class="bx bx-phone me-2 text-accent"></span> +91-120-4055800</a></li>
 									<li class="mb-2"><a href="tel:+91 7986249828"><span class="bx bx-phone me-2 text-accent"></span> +91 8808800240</a></li>
-									<li class="d-flex gap-1 align-items-start"><span class="bx bx-envelope me-2 text-accent"></span>SDF, E-7 & 8, Noida Special Economic Zone, Noida-201 305, U.P., (India)</li>
+									<li class="d-flex gap-1 align-items-start"><span class="bx bx-envelope me-2 text-accent"></span>SDF, E-7 & 8, Noida Special Economic Zone, Noida-201305, U.P., (India)</li>
 								</ul>
 							</div>
 						</div>

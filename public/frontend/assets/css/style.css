@@ -2229,8 +2229,8 @@ iframe {
 }
 .contact-content {
   background-color: #fff;
-  padding: 40px;
-  width: 350px;
+  padding: 40px 30px;
+  width: 360px;
   content: "";
   position: absolute;
   bottom: -60px;

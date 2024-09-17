@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h5 class="mb-4">Indeutsch Industries Pvt. Ltd.</h5>
-                <div class="d-flex"><span class="me-2"><i class='bx bx-map'></i></span><span class="d-flex site_footer-text">SDF, E-7 & 8, Noida Special Economic Zone, Noida-201 305, U.P., (India)</span></div>
+                <div class="d-flex"><span class="me-2"><i class='bx bx-map'></i></span><span class="d-flex site_footer-text">SDF, E-7 & 8, Noida Special Economic Zone, Noida-201305, U.P., (India)</span></div>
             </div>
             <div class="col-md-6">
                 <div class="site_footer-right">
@@ -16,7 +16,9 @@
                     <ul class="social_icons justify-content-end">
                         <li><a href="https://www.linkedin.com/company/indeutsch-industries/" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
                     </ul>
-
+                    <div class="initiatives-read-more">
+                        <a href="{{ asset('pdf/2024/CSR_Policy_Indeutsch_Industries_Pvt_Ltd_Amended_16.03.2021.pdf') }}" class="btn border-0 btn-primary mt-2" target="_blank">CSR Policy</a>
+                    </div>
                     
                 </div>
             </div>
