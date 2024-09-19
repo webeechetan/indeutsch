@@ -602,3 +602,8 @@
 });
 
 })(jQuery);
+// Product Thumbnail Style MS
+function changeImage(thumbnail) {
+  const featuredImg = document.getElementById('ms-featured-img');
+  featuredImg.src = thumbnail.src;
+}
