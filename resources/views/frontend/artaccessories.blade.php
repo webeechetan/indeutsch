@@ -169,10 +169,10 @@
 
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="http://localhost:8000/frontend/assets/images/travel-bags.png" alt="Watercolor" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="http://localhost:8000/frontend/assets/images/bag-2.webp" alt="Oil Brushes" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="http://localhost:8000/frontend/assets/images/bag-3.webp" alt="Acrylic Brushes" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="http://localhost:8000/frontend/assets/images/bag-4.webp" alt="Multimedia Brushes" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/travel-bags.png" alt="Watercolor" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/bag-2.webp" alt="Oil Brushes" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/bag-3.webp" alt="Acrylic Brushes" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/bag-4.webp" alt="Multimedia Brushes" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
