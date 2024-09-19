@@ -165,7 +165,7 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="http://localhost:8000/frontend/assets/images/travel-bags.png" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+											<img src="https://indeutsch.com/frontend/assets/images/travel-bags.png" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
 
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
