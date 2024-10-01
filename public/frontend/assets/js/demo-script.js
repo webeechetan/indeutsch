@@ -604,6 +604,8 @@
 })(jQuery);
 // Product Thumbnail Style MS
 function changeImage(thumbnail) {
-  const featuredImg = document.getElementById('ms-featured-img');
+  const featuredImg = thumbnail.closest('.ms-product-img-container').querySelector('.ms-featured-img');
   featuredImg.src = thumbnail.src;
 }
+
+// Image Zoom Effect MS

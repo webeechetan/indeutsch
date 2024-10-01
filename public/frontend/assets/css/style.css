@@ -2492,6 +2492,7 @@ iframe {
   max-width: 100%;
   margin: 0 auto !important;
   display: flex;
+  transition: transform 0.3s ease;
 }
 .ms-product-img .ms-product-img-container .ms-thumbnails {
   display: flex;

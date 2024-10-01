@@ -93,7 +93,31 @@
 										<a href="javascript:void(0);">
 											<div class="product-category-list" id="easels">
 												<span class='bx bx-chevrons-right'></span>
-												<span>Easels</span>
+												<span>Studio Easel –H type</span>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">
+											<div class="product-category-list" id="easels">
+												<span class='bx bx-chevrons-right'></span>
+												<span>Lyre Easel- A Type</span>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">
+											<div class="product-category-list" id="easels">
+												<span class='bx bx-chevrons-right'></span>
+												<span>Field Folding Easel</span>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">
+											<div class="product-category-list" id="easels">
+												<span class='bx bx-chevrons-right'></span>
+												<span>Table Top Easel</span>
 											</div>
 										</a>
 									</li>
@@ -146,15 +170,30 @@
 								data-bs-target="#pills-apron" type="button" role="tab"
 								aria-controls="pills-apron" aria-selected="false"> Apron</button>
 						</li>
-						<li class="nav-item" role="presentation">
+						<!-- <li class="nav-item" role="presentation">
 							<button class="nav-link" id="pills-painting-knives-tab" data-bs-toggle="pill"
 								data-bs-target="#pills-painting-knives" type="button" role="tab"
 								aria-controls="pills-painting-knives" aria-selected="false"> Painting Knives</button>
+						</li> -->
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-easels-tab-h-type" data-bs-toggle="pill"
+								data-bs-target="#pills-easels-h-type" type="button" role="tab"
+								aria-controls="pills-easels-h-type" aria-selected="false"> Studio Easel –H type</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="pills-easels	-tab" data-bs-toggle="pill"
-								data-bs-target="#pills-easels" type="button" role="tab"
-								aria-controls="pills-easels" aria-selected="false"> Easels</button>
+							<button class="nav-link" id="pills-easels-tab-a-type" data-bs-toggle="pill"
+								data-bs-target="#pills-easels-a-type" type="button" role="tab"
+								aria-controls="pills-easels-a-type" aria-selected="false"> Lyre Easel- A Type</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-easels-tab-folding-easel" data-bs-toggle="pill"
+								data-bs-target="#pills-easels-folding-easel" type="button" role="tab"
+								aria-controls="pills-easels-folding-easel" aria-selected="false"> Field Folding Easel</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-easels-tab-top-easel" data-bs-toggle="pill"
+								data-bs-target="#pills-easels-top-easel" type="button" role="tab"
+								aria-controls="pills-easels-top-easel" aria-selected="false"> Table Top Easel</button>
 						</li>
 					</ul>
 					<div class="tab-content" id="components-pills-tabContent">
@@ -166,13 +205,10 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<img src="https://indeutsch.com/frontend/assets/images/travel-bags.png" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
-
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/travel-bags.png" alt="Watercolor" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/bag-2.webp" alt="Oil Brushes" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/bag-3.webp" alt="Acrylic Brushes" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/bag-4.webp" alt="Multimedia Brushes" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/travel-bags.png" alt="travel bags" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/travel-img2.png" alt="travel bags" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -182,7 +218,7 @@
 									<div class="product-content">
 										<div class="product-content-title">
 											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Travel Bags</h6>
-											<h2 class="mt-4">Travel<span class="text-accent fw-bold"> Bags</span></h2>
+											<h2 class="mt-4 fw-bold">Travel<span class="text-accent fw-bold"> Bags</span></h2>
 										</div>
 										<p>These versatile travel bag features a modular interior with
 											adjustable compartments, allowing artists to store a wide range
@@ -192,145 +228,332 @@
 										<p>These bag offers a stylish and functional solution for artists on
 											the go. The clean & sleek design provides ample space for
 											branding, making it perfect for private label brands.</p>
-
-										<!-- <div class="product-content-description border-top mt-3">
-											<div>
-												<h6 class="fw-bold mb-3">Color:</h6>
-											</div>
-											<div class="product-content-color">
-												<span class="color-swtaches"></span>
-												<span class="color-swtaches2"></span>
-												<span class="color-swtaches3"></span>
-												<span class="color-swtaches4"></span>
-												<span class="color-swtaches5"></span>
-											</div>
-
-										</div> -->
-										<!-- <div class="product-content-description">
-											<div>
-												<h6 class="fw-bold">Weight :</h6>
-											</div>
-											<div>
-												<p class="mb-0">1.28 kg</p>
-											</div>
-										</div> -->
-										<div class="d-grid mt-5">
+										<!-- Enquire Now Button -->
+										<!-- <div class="d-grid mt-5">
 											<button class="btn btn-new btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <span class="bx bx-phone me-2"></span>Enquire Now</button>
-										</div>
+										</div> -->
 										<!-- Modal -->
-										<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-											<div class="modal-dialog ">
-												<div class="modal-content">
-													<div class="modal-header">
-														<h6 class="modal-title" id="staticBackdropLabel">Inquiry Details
-														</h6>
-														<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-													</div>
-													<div class="modal-body p-4">
-														<div class="modal-form">
-															<form>
-																<div class="row">
-																	<div class="col-md-6 mb-4">
-																		<div class="form-group">
-
-																			<input type="text" class="form-control" id="first-name" placeholder="Enter Your First Name" required="">
-																			<label for=""> <span class="bx bx-user me-1"></span>First Name</label>
-																		</div>
-																	</div>
-																	<div class="col-md-6 mb-4">
-																		<div class="form-group">
-																			<input type="text" class="form-control" id="last-name" placeholder="Enter Your Last Name">
-																			<label for=""><span class="bx bx-user me-1"></span>Last Name</label>
-																		</div>
-																	</div>
-																	<div class="col-md-6 mb-4">
-																		<div class="form-group">
-
-																			<input type="email" class="form-control" id="email" placeholder="Enter Your Email" required="">
-																			<label for=""><span class="bx bx-envelope me-1"></span>Email</label>
-																		</div>
-																	</div>
-																	<div class="col-md-6 mb-4">
-																		<div class="form-group">
-
-																			<input type="number" class="form-control" id="number" placeholder="Enter Your Number" required="">
-																			<label for=""><span class="bx bx-phone me-1"></span>Phone</label>
-																		</div>
-																	</div>
-																	<div class="col-md-12 mb-4">
-																		<div class="form-group">
-																			<textarea type="text" id="address" placeholder="Send Message" rows="4"></textarea>
-																			<label for=""> <i class="bx bx-message-square-dots me-1"></i>Message</label>
-																		</div>
-																	</div>
-																	<div class="col-md-12">
-																		<button class="btn btn-secondary">Send Query</button>
-																	</div>
-																</div>
-															</form>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<div class="product-content-description-bottom">
-										<ul class="nav nav-pills" id="pills-tab" role="tablist">
-											<li class="nav-item" role="presentation">
-												<button class="nav-link active" id="pills-description-tab" data-bs-toggle="pill" data-bs-target="#pills-description" type="button" role="tab" aria-controls="pills-description" aria-selected="true">Description</button>
-											</li>
-										</ul>
-										<div class="tab-content" id="pills-tabContent">
-											<div class="tab-pane fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab">
-												<div class="product-content-description">
-													<p>Enjoying a good reputation with a large number of buyers,
-														Indeutsch products can be found in North America, almost all
-														European countries, Australia, New Zealand, Middle East Asia,
-														Latin America and other parts of the world.</p>
-													<p>Enjoying a good reputation with a large number of buyers,
-														Indeutsch products can be found in North America, almost all
-														European countries, Australia, New Zealand, Middle East Asia,
-														Latin America and other parts of the world.</p>
-													<p class="mb-0">Enjoying a good reputation with a large number of
-														buyers, Indeutsch products can be found in North America, almost
-														all European countries, Australia, New Zealand, Middle East
-														Asia, Latin America and other parts of the world.</p>
-												</div>
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="tab-pane fade" id="pills-bags" role="tabpanel"
-							aria-labelledby="pills-bags-tab">...</div>
+							aria-labelledby="pills-bags-tab">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/portfolio-img.png" loading="lazy" alt="portfolio bag" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/portfolio-img.png" alt="portfolio bag" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Portfolio Bag</h6>
+											<h2 class="mt-4 fw-bold">Portfolio<span class="text-accent fw-bold"> Bag</span></h2>
+										</div>
+										<p>We manufacture and design portfolio bag which
+											provides secure and convenient transportation for
+											a variety of artwork sizes, including canvases.
+											Constructed from high-quality, water-resistant
+											polyester to safeguard artwork from dust,
+											moisture, and minor impacts. This lightweight and
+											foldable design allows for easy transportation</p>
+										<p>
+											While ideal for canvases, this versatile bag can
+											also accommodate other art supplies, offering a
+											convenient storage solution for artists and can be
+											made in different variety of colors, sizes and
+											materials.</p>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="tab-pane fade" id="pills-brush-case" role="tabpanel"
 							aria-labelledby="pills-brush-case-tab">
-							...
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/brush-cases.png" loading="lazy" alt="Brush case" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/brush-cases.png" alt="Brush case" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Brush Case</h6>
+											<h2 class="mt-4 fw-bold">Brush<span class="text-accent fw-bold"> Case</span></h2>
+										</div>
+										<p>Indeutsch manufactures brush cases which are
+											designed in a way to effectively protect and
+											organize your brushes while ensuring easy
+											portability. Interior is designed to convert as a
+											brush stand. These cases can be designed to
+											accommodate brushes as per your requirement.
+											They can be crafted from materials like
+											–cotton/polyester etc.</p>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="tab-pane fade" id="pills-brush-wraps" role="tabpanel"
 							aria-labelledby="pills-brush-wraps-tab">
-							...
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/brush-wraps.png" loading="lazy" alt="Brush wraps" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/brush-wraps.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/brush-wraps2.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/brush-wraps3.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Brush Wraps</h6>
+											<h2 class="mt-4 fw-bold">Brush<span class="text-accent fw-bold"> Wraps</span></h2>
+										</div>
+										<p>We offer a stylish and compact solution for storing
+											and transporting your favorite brushes. Indeutsch
+											Brush Wraps are a testament to our commitment
+											to quality, convenience, and style.</p>
+										<p>These can be made with a variety of materials like
+											Cotton, Polyester and in Luxurious Synthetic
+											leather. </p>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="tab-pane fade" id="pills-pencil-case" role="tabpanel"
 							aria-labelledby="pills-pencil-case-tab">
-							...
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/pencil-cases.png" loading="lazy" alt="Pencil Case" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/pencil-cases.png" alt="Pencil Case" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/pencil-cases2.png" alt="Pencil Case" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Pencil Cases</h6>
+											<h2 class="mt-4 fw-bold">Pencil<span class="text-accent fw-bold"> Cases</span></h2>
+										</div>
+										<p>We offer a range of high-quality pencil cases,
+											perfect for artists, designers, and anyone who
+											needs to keep their pencils safely stored and easily
+											accessible.</p>
+
+										<p>Indeutsch pencil cases complement any artistic
+											style, making them a pleasure to carry and use.</p>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="tab-pane fade" id="pills-apron" role="tabpanel"
 							aria-labelledby="pills-apron-tab">
-							...
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/aprons.png" loading="lazy" alt="Aprons" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/aprons.png" alt="Aprons" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/aprons2.png" alt="Aprons" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Aprons</h6>
+											<h2 class="mt-4 fw-bold">Aprons<span class="text-accent fw-bold"> </span></h2>
+										</div>
+										<p>Indeutsch offers a wide range of high-
+											quality aprons . Our aprons are designed
+											to meet the needs of both professional
+											and aspiring artists, providing:
+											unmatched functionality and comfort.</p>
+										<p>
+											Our aprons come in a variety of styles to
+											complement different artistic
+											preferences.
+										</p>
+										<p>
+											We take pride in using high-quality
+											materials and expert craftsmanship.
+										</p>
+										<p>
+											We offer a smooth onboarding process
+											for integrating Indeutsch aprons into
+											your brand.
+										</p>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-painting-knives" role="tabpanel"
-							aria-labelledby="pills-painting-knives-tab">
-							...
+						<div class="tab-pane fade" id="pills-easels-h-type" role="tabpanel"
+							aria-labelledby="pills-easels-h-type">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/studio-easel.png" loading="lazy" alt="Studio Easel –H type" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/studio-easel.png" alt="Studio Easel –H type" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/studio-easel2.png" alt="Studio Easel –H type" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Studio Easel – H type</h6>
+											<h2 class="mt-4 fw-bold">Studio Easel <span class="text-accent fw-bold">– H type</span></h2>
+										</div>
+										<p>Material:- Beech wood/Pinewood</p>
+										<p>Finish- Natural/Colored</p>
+										<p>Canvas Height Up to : 130cm (51 inches)</p>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-easels" role="tabpanel"
-							aria-labelledby="pills-easels">
-							...
+						<div class="tab-pane fade" id="pills-easels-a-type" role="tabpanel"
+							aria-labelledby="pills-easels-a-type">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/lyre-easel.png" loading="lazy" alt="Lyre Easel - A Type" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/lyre-easel.png" alt="Lyre Easel - A Type" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/lyre-easel2.png" alt="Lyre Easel - A Type" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Lyre Easel - A Type</h6>
+											<h2 class="mt-4 fw-bold">Lyre Easel <span class="text-accent fw-bold">- A Type </span></h2>
+										</div>
+										<p>Material:- Beech wood/Pinewood
+										</p>
+										<p>Finish- Natural/Colored</p>
+										<p>Canvas Height Up to : 125cm (49 inches)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="pills-easels-folding-easel" role="tabpanel"
+							aria-labelledby="pills-easels-folding-easel">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/folding-easel.png" loading="lazy" alt="Field Folding Easel" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/folding-easel.png" alt="Field Folding Easel" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/folding-easel2.png" alt="Field Folding Easel" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Field Folding Easel</h6>
+											<h2 class="mt-4 fw-bold">Field Folding <span class="text-accent fw-bold">Easel </span></h2>
+										</div>
+										<p>Material:- Beech wood/Pinewood</p>
+										<p>Finish- Natural/Colored</p>
+										<p>Canvas Height Up to : 118cm(46 inches)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="pills-easels-top-easel" role="tabpanel"
+							aria-labelledby="pills-easels-top-easel">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<img src="https://indeutsch.com/frontend/assets/images/products/top-easel.png" loading="lazy" alt="Table Top Easel" id="ms-featured-img" class="ms-featured-img">
+
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/top-easel.png" alt="Table Top Easel" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/top-easel2.png" alt="Table Top Easel" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Table Top Easel</h6>
+											<h2 class="mt-4 fw-bold">Table <span class="text-accent fw-bold">Top Easel </span></h2>
+										</div>
+										<p>Material:- Beech wood/Pinewood</p>
+										<p>Finish- Natural/Colored</p>
+										<p>Canvas Height Up to : 58cm(23 inches)</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

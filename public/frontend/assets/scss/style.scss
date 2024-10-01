@@ -1851,6 +1851,7 @@
             }
         }
     }
+   
 }
 
 /* Products Image Thumbnail Style MS */
@@ -1872,6 +1873,7 @@ $border-color: #000;
             max-width: 100%;
             margin: 0 auto !important;
             display: flex;
+            transition: transform 0.3s ease;
         }
 
         .ms-thumbnails {
