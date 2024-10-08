@@ -2516,4 +2516,30 @@ iframe {
 div .btn-new {
   background-color: #FF715B;
   border: 1px solid #FF715B;
+}
+
+/* Read More */
+.product-content .read-more {
+  background-color: #F74225;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+.product-content .read-more:hover {
+  background-color: #000;
+}
+.product-content .content-preview {
+  margin-bottom: 15px;
+}
+.product-content .content-preview p {
+  margin-bottom: 10px;
+}
+.product-content .content-full {
+  display: none;
+}
+.product-content .content-full p {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */

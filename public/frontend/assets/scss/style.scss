@@ -1904,3 +1904,39 @@ div {
         border: 1px solid #FF715B;
     }
 }
+
+/* Read More */
+$product-button-color: #F74225;
+$product-button-hover-color: #fff;
+
+.product-content {
+    .read-more {
+        background-color: $product-button-color;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #000;
+        }
+    }
+
+    .content-preview {
+        margin-bottom: 15px;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+
+    .content-full {
+        display: none;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}

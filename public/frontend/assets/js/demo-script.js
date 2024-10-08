@@ -608,4 +608,18 @@ function changeImage(thumbnail) {
   featuredImg.src = thumbnail.src;
 }
 
+// Read more
+    function toggleContent() {
+        const fullContent = document.querySelector('.content-full');
+        const button = document.querySelector('.read-more');
+
+        if (fullContent.style.display === 'none') {
+            fullContent.style.display = 'block';
+            button.innerText = 'Read Less';
+        } else {
+            fullContent.style.display = 'none';
+            button.innerText = 'Read More';
+        }
+    }
+
 // Image Zoom Effect MS
