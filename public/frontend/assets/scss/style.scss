@@ -1565,6 +1565,16 @@
         padding: 40px 0;
         background-repeat: no-repeat;
         background-size: cover;
+
+        @media(min-width:1400px) {
+            padding: 100px 0;
+            background-position-x: 70%;
+            background-position-y: 100%;
+        }
+
+        @media(min-width: 1230px) and (max-width: 1367px) {
+            background-position: bottom right;
+        }
     }
 
     &-banner {
@@ -1851,7 +1861,7 @@
             }
         }
     }
-   
+
 }
 
 /* Products Image Thumbnail Style MS */
@@ -1865,11 +1875,16 @@ $border-color: #000;
 
     .ms-product-img-container {
         position: relative;
-		padding: 60px;
-		background: #fff;
+        padding: 60px;
+        background: #fff;
+        width: 100%;
+        height: auto;
+
         .ms-featured-img {
-            width: 380px;
+            // width: 380px;
+            width: 100%;
             height: auto;
+            display: block;
             max-width: 100%;
             margin: 0 auto !important;
             display: flex;
@@ -1896,8 +1911,34 @@ $border-color: #000;
                 }
             }
         }
+
+    }
+
+    .zoom-img-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    /* The Magnifying Glass Lens */
+    .ms-magnifier-lens {
+        position: absolute;
+        border-radius: 50%;
+        cursor: none;
+        background-repeat: no-repeat;
+        background-size: 400% 400%;
+        display: none;
+        pointer-events: none;
+        z-index: 10;
+    }
+
+    /* Hide lens if mouse is not hovering */
+    .zoom-img-container:hover .ms-magnifier-lens {
+        display: block;
     }
 }
+
 div {
     .btn-new {
         background-color: #FF715B;

@@ -622,4 +622,56 @@ function changeImage(thumbnail) {
         }
     }
 
-// Image Zoom Effect MS
+// // // Image Zoom Effect MS
+// document.addEventListener('DOMContentLoaded', function() {
+//   const zoomImgContainer = document.querySelector('.zoom-img-container');
+//   const featuredImage = document.querySelector('.ms-featured-img');
+//   const lens = document.createElement('div');
+//   lens.classList.add('ms-magnifier-lens');
+//   zoomImgContainer.appendChild(lens);
+
+//   // Get the dimensions of the featured image
+//   const imageWidth = featuredImage.width;
+//   const imageHeight = featuredImage.height;
+
+//   // Set up the magnification (zoom level)
+//   const magnification = 2.5; // Adjust this to control zoom level
+
+//   // Lens size (adjust this based on your desired lens size)
+//   const lensSize = 150; // Lens diameter in pixels
+//   lens.style.width = `${lensSize}px`;
+//   lens.style.height = `${lensSize}px`;
+
+//   // Lens movement and magnification logic
+//   zoomImgContainer.addEventListener('mousemove', function(e) {
+//       const containerRect = zoomImgContainer.getBoundingClientRect();
+//       const mouseX = e.clientX - containerRect.left;
+//       const mouseY = e.clientY - containerRect.top;
+
+//       // Calculate the position of the lens, ensuring it stays within image bounds
+//       const lensOffsetX = Math.min(Math.max(mouseX - lensSize / 2, 0), imageWidth - lensSize);
+//       const lensOffsetY = Math.min(Math.max(mouseY - lensSize / 2, 0), imageHeight - lensSize);
+
+//       // Position the lens directly under the cursor
+//       lens.style.left = `${lensOffsetX}px`;
+//       lens.style.top = `${lensOffsetY}px`;
+
+//       // Set the background image and apply magnification to simulate zoom
+//       lens.style.backgroundImage = `url(${featuredImage.src})`;
+//       lens.style.backgroundSize = `${imageWidth * magnification}px ${imageHeight * magnification}px`;
+
+//       // Adjust the background position to center the zoomed-in view
+//       lens.style.backgroundPosition = `-${lensOffsetX * magnification}px -${lensOffsetY * magnification}px`;
+//   });
+
+//   // Hide the lens when the mouse leaves the container
+//   zoomImgContainer.addEventListener('mouseleave', function() {
+//       lens.style.display = 'none';
+//       featuredImage.style.opacity = 1; // Reset image opacity
+//   });
+
+//   // Show the lens when mouse enters
+//   zoomImgContainer.addEventListener('mouseenter', function() {
+//       lens.style.display = 'block';
+//   });
+// });

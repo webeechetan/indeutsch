@@ -813,3 +813,4 @@ for (let i = 0; i < smallImgs.length; i++){
     }
   })
 }
+

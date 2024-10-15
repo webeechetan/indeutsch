@@ -2272,6 +2272,18 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (min-width: 1400px) {
+  .product-banner, .product-banner1, .product-banner2, .product-banner4 {
+    padding: 100px 0;
+    background-position-x: 70%;
+    background-position-y: 100%;
+  }
+}
+@media (min-width: 1230px) and (max-width: 1367px) {
+  .product-banner, .product-banner1, .product-banner2, .product-banner4 {
+    background-position: bottom right;
+  }
+}
 .product-banner {
   background-image: url(../images/brushes.jpg);
 }
@@ -2480,15 +2492,20 @@ iframe {
 .ms-product-img {
   max-width: 800px;
   margin: auto;
+  /* The Magnifying Glass Lens */
+  /* Hide lens if mouse is not hovering */
 }
 .ms-product-img .ms-product-img-container {
   position: relative;
   padding: 60px;
   background: #fff;
+  width: 100%;
+  height: auto;
 }
 .ms-product-img .ms-product-img-container .ms-featured-img {
-  width: 380px;
+  width: 100%;
   height: auto;
+  display: block;
   max-width: 100%;
   margin: 0 auto !important;
   display: flex;
@@ -2511,6 +2528,25 @@ iframe {
 }
 .ms-product-img .ms-product-img-container .ms-thumbnails .ms-thumbnail:hover {
   border: 2px solid #000;
+}
+.ms-product-img .zoom-img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.ms-product-img .ms-magnifier-lens {
+  position: absolute;
+  border-radius: 50%;
+  cursor: none;
+  background-repeat: no-repeat;
+  background-size: 400% 400%;
+  display: none;
+  pointer-events: none;
+  z-index: 10;
+}
+.ms-product-img .zoom-img-container:hover .ms-magnifier-lens {
+  display: block;
 }
 
 div .btn-new {

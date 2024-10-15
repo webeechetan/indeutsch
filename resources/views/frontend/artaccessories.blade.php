@@ -204,11 +204,13 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/travel-bags.png" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+											<div class="zoom-img-container">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/travel-bags.png" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/travel-bags.png" alt="travel bags" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/travel-img2.png" alt="travel bags" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/travel-bags.png" alt="travel bags" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/travel-img2.png" alt="travel bags" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -244,11 +246,12 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/portfolio-img.png" loading="lazy" alt="portfolio bag" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/portfolio-img.png" loading="lazy" alt="portfolio bag" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/portfolio-img.png" alt="portfolio bag" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/portfolio-img.png" alt="portfolio bag" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -284,11 +287,12 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/brush-cases.png" loading="lazy" alt="Brush case" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-cases.png" loading="lazy" alt="Brush case" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/brush-cases.png" alt="Brush case" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-cases.png" alt="Brush case" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -319,13 +323,14 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/brush-wraps.png" loading="lazy" alt="Brush wraps" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps.png" loading="lazy" alt="Brush wraps" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/brush-wraps.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/brush-wraps2.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/brush-wraps3.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps2.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps3.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -355,12 +360,13 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/pencil-cases.png" loading="lazy" alt="Pencil Case" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/pencil-cases.png" loading="lazy" alt="Pencil Case" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/pencil-cases.png" alt="Pencil Case" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/pencil-cases2.png" alt="Pencil Case" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/pencil-cases.png" alt="Pencil Case" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/pencil-cases2.png" alt="Pencil Case" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -390,12 +396,13 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/aprons.png" loading="lazy" alt="Aprons" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/aprons.png" loading="lazy" alt="Aprons" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/aprons.png" alt="Aprons" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/aprons2.png" alt="Aprons" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/aprons.png" alt="Aprons" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/aprons2.png" alt="Aprons" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -437,12 +444,13 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/studio-easel.png" loading="lazy" alt="Studio Easel –H type" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/studio-easel.png" loading="lazy" alt="Studio Easel –H type" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/studio-easel.png" alt="Studio Easel –H type" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/studio-easel2.png" alt="Studio Easel –H type" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/studio-easel.png" alt="Studio Easel –H type" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/studio-easel2.png" alt="Studio Easel –H type" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -452,7 +460,8 @@
 									<div class="product-content">
 										<div class="product-content-title">
 											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Studio Easel – H type</h6>
-											<h2 class="mt-4 fw-bold">Studio Easel <span class="text-accent fw-bold">– H type</span></h2>
+											<h2 class="mt-4 fw-bold">Studio Easel –<p class="text-accent fw-bold"> H type</p>
+											</h2>
 										</div>
 										<p>Material:- Beech wood/Pinewood</p>
 										<p>Finish- Natural/Colored</p>
@@ -468,12 +477,13 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/lyre-easel.png" loading="lazy" alt="Lyre Easel - A Type" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/lyre-easel.png" loading="lazy" alt="Lyre Easel - A Type" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/lyre-easel.png" alt="Lyre Easel - A Type" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/lyre-easel2.png" alt="Lyre Easel - A Type" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/lyre-easel.png" alt="Lyre Easel - A Type" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/lyre-easel2.png" alt="Lyre Easel - A Type" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -483,7 +493,8 @@
 									<div class="product-content">
 										<div class="product-content-title">
 											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Lyre Easel - A Type</h6>
-											<h2 class="mt-4 fw-bold">Lyre Easel <span class="text-accent fw-bold">- A Type </span></h2>
+											<h2 class="mt-4 fw-bold">Lyre Easel -<p class="text-accent fw-bold"> A Type </p>
+											</h2>
 										</div>
 										<p>Material:- Beech wood/Pinewood
 										</p>
@@ -500,12 +511,13 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/folding-easel.png" loading="lazy" alt="Field Folding Easel" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/folding-easel.png" loading="lazy" alt="Field Folding Easel" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/folding-easel.png" alt="Field Folding Easel" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/folding-easel2.png" alt="Field Folding Easel" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/folding-easel.png" alt="Field Folding Easel" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/folding-easel2.png" alt="Field Folding Easel" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -531,12 +543,13 @@
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
-											<img src="https://indeutsch.com/frontend/assets/images/products/top-easel.png" loading="lazy" alt="Table Top Easel" id="ms-featured-img" class="ms-featured-img">
-
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/top-easel.png" loading="lazy" alt="Table Top Easel" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/top-easel.png" alt="Table Top Easel" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/top-easel2.png" alt="Table Top Easel" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/top-easel.png" alt="Table Top Easel" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/top-easel2.png" alt="Table Top Easel" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>

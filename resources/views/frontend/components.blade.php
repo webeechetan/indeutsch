@@ -30,7 +30,15 @@
 								<ul class="list-unstyled mb-0">
 									<li>
 										<a href="javascript:void(0);">
-											<div class="product-category-list active" id="ferrules">
+											<div class="product-category-list active" id="manufacturing-division">
+												<span class='bx bx-chevrons-right'></span>
+												<span>Manufacturing Division</span>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">
+											<div class="product-category-list" id="ferrules">
 												<span class='bx bx-chevrons-right'></span>
 												<span>Ferrules</span>
 											</div>
@@ -70,7 +78,12 @@
 				<div class="product-category-tab">
 					<ul class="nav nav-pills mb-3" id="components-pills-tab" role="tablist">
 						<li class="nav-item" role="presentation">
-							<button class="nav-link active" id="pills-ferrules-tab" data-bs-toggle="pill"
+							<button class="nav-link active" id="pills-manufacturing-division-tab" data-bs-toggle="pill"
+								data-bs-target="#pills-manufacturing-division" type="button" role="tab"
+								aria-controls="pills-manufacturing-division" aria-selected="true">Manufacturing Division</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-ferrules-tab" data-bs-toggle="pill"
 								data-bs-target="#pills-ferrules" type="button" role="tab"
 								aria-controls="pills-ferrules" aria-selected="true">Ferrules</button>
 						</li>
@@ -86,17 +99,50 @@
 						</li>
 					</ul>
 					<div class="tab-content" id="components-pills-tabContent">
-						<div class="tab-pane fade show active" id="pills-ferrules" role="tabpanel"
+						<div class="tab-pane fade show active" id="pills-manufacturing-division" role="tabpanel"
+							aria-labelledby="pills-manufacturing-division-tab">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/components/manufacturing-division.png" loading="lazy" alt="manufacturing-division" id="ms-featured-img" class="ms-featured-img">
+											<div class="ms-thumbnails" style="margin-top: 20px;">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/manufacturing-division.png" alt="manufacturing-division" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class="mb-2"><span>Components<span>></span> </span> Manufacturing Division</h6>
+											<h2 class="mt-4 fw-bold">Manufacturing <span class="text-accent fw-bold"> Division</span></h2>
+										</div>
+										<div class="content-preview">
+											<p>We have a separate Component manufacturing plant, with a facility to manufacture different types of Ferrules for Brushes (Artist, Cosmetic and Industrial) and Components for makeup packaging. </p>
+											<p>We have a well-equipped In-house Tool Room where we develop machines, tools, dies and fixtures required for component manufacturing. This technical centre is equipped with CAD/CAM technology that enables us to design and develop high precision components in the least possible time. </p>
+											<p>We have an in-house Pipe drawing plant that can draw Brass and Aluminium Pipes from diameters as small as 2mm to large diameters such as 35 mm. This provides the required input for our components division.</p>
+											<button class="read-more" onclick="toggleContent()">Read More</button>
+										</div>
+										<div class="content-full" style="display:none;">
+											<p>With these two facilities we have developed a capability to produce various sizes and shapes of ferrules to meet customer’s requirement. Presently we are manufacturing more than 1,000 different sizes of components. </p>
+											<p>Our installed capacity is around 5 million components per month which includes Brass and Aluminium. We are producing these components with close tolerances (+/- 0.05 mm in diameter and +/- 0.5 mm in length). We can offer components in Cylindrical, Conical, Semi-Conical, Fan, Triangular and Square shapes. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="pills-ferrules" role="tabpanel"
 							aria-labelledby="pills-ferrules-tab">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/brass-aluminium.png" loading="lazy" alt="brass-aluminium" id="ms-featured-img" class="ms-featured-img">
+											<img src="https://indeutsch.com/frontend/assets/images/products/components/brass-aluminium.png" loading="lazy" alt="brass-aluminium" id="ms-featured-img" class="ms-featured-img">
 											<div class="ms-thumbnails" style="margin-top: 20px;">
-												<img src="https://indeutsch.com/frontend/assets/images/products/brass-aluminium.png" alt="brass-aluminium" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/brass-aluminium2.png" alt="brass-aluminium" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/brass-aluminium3.png" alt="brass-aluminium" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/brass-aluminium.png" alt="brass-aluminium" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/brass-aluminium2.png" alt="brass-aluminium" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/brass-aluminium3.png" alt="brass-aluminium" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -107,18 +153,10 @@
 											<h6 class="mb-2"><span>Components<span>></span> </span> Ferrules</h6>
 											<h2 class="mt-4 fw-bold">Ferrules<span class="text-accent fw-bold"> </span></h2>
 										</div>
-										<div class="content-preview">
-											<p>We have an in-house Pipe drawing plant that can draw Brass and Aluminium Pipes from diameters as small as 2mm to large diameters such as 35 mm. This provides the required input for our components division.</p>
-											<p>Our installed capacity is around 5 million components per month which includes Brass and Aluminium. We are producing these components with close tolerances (+/- 0.05 mm in diameter and +/- 0.5 mm in length).</p>
-											<p>We can offer components in Cylindrical, Conical, Semi-Conical, Fan, Triangular and Square shapes.</p>
-											<p>Different Finishes which we can offer are :</p>
-											<button class="read-more" onclick="toggleContent()">Read More</button>
-										</div>
-										<div class="content-full" style="display:none;">
-											<p><strong>Brass –</strong> Nickel plated, Chrome Plated, Matt Nickel, Matt Chrome, Gold Plated (24 Carat) and lacquered ferrules in different colours.</p>
-											<p><strong>Aluminium –</strong> Silver Anodised, Gold Anodised, Matt Silver, Matt Gold, Copper, Red, Blue, Green (both in Glossy and Matt finishes)</p>
-											<p>We have a fully functional effluent treatment plant where we treat all the waste water from our Plating and Anodising sections.</p>
-										</div>
+										<p>Different Finishes which we can offer are :</p>
+										<p><strong>Brass –</strong> Nickel plated, Chrome Plated, Matt Nickel, Matt Chrome, Gold Plated (24 Carat) and lacquered ferrules in different colours.</p>
+										<p><strong>Aluminium –</strong> Silver Anodised, Gold Anodised, Matt Silver, Matt Gold, Copper, Red, Blue, Green (both in Glossy and Matt finishes)</p>
+										<p>We have a fully functional effluent treatment plant where we treat all the waste water from our Plating and Anodising sections.</p>
 									</div>
 								</div>
 							</div>
@@ -129,9 +167,10 @@
 								<div class="col-md-6">
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/packaging.png" loading="lazy" alt="packaging" id="ms-featured-img" class="ms-featured-img">
+											<img src="https://indeutsch.com/frontend/assets/images/products/components/packaging.png" loading="lazy" alt="packaging" id="ms-featured-img" class="ms-featured-img">
 											<div class="ms-thumbnails" style="margin-top: 20px;">
-												<img src="https://indeutsch.com/frontend/assets/images/products/packaging.png" alt="packaging" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/packaging.png" alt="packaging" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/packaging2.png" alt="packaging" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
@@ -155,10 +194,10 @@
 								<div class="col-md-6">
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/handle.png" loading="lazy" alt="precision-components" id="ms-featured-img" class="ms-featured-img">
+											<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" loading="lazy" alt="precision-components" id="ms-featured-img" class="ms-featured-img">
 											<div class="ms-thumbnails" style="margin-top: 20px;">
-												<img src="https://indeutsch.com/frontend/assets/images/products/handle.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/handle2.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle2.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
