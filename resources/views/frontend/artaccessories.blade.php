@@ -166,6 +166,11 @@
 								aria-controls="pills-pencil-case" aria-selected="false"> Pencil Case</button>
 						</li>
 						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-painting-knives-tab" data-bs-toggle="pill"
+								data-bs-target="#pills-painting-knives" type="button" role="tab"
+								aria-controls="pills-painting-knives" aria-selected="false"> Painting Knives</button>
+						</li>
+						<li class="nav-item" role="presentation">
 							<button class="nav-link" id="pills-apron-tab" data-bs-toggle="pill"
 								data-bs-target="#pills-apron" type="button" role="tab"
 								aria-controls="pills-apron" aria-selected="false"> Apron</button>
@@ -385,6 +390,36 @@
 
 										<p>Indeutsch pencil cases complement any artistic
 											style, making them a pleasure to carry and use.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="pills-painting-knives" role="tabpanel"
+							aria-labelledby="pills-painting-knives-case-tab">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ms-product-img">
+										<div class="ms-product-img-container">
+											<!-- Large Image -->
+											<div class="zoom-img-container">
+											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives1.png" loading="lazy" alt="painting knives" id="ms-featured-img" class="ms-featured-img">
+											</div>
+											<!-- Thumbnails -->
+											<div class="ms-thumbnails">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives1.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)">
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-6 ps-md-5">
+									<div class="product-content">
+										<div class="product-content-title">
+											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Painting Knives</h6>
+											<h2 class="mt-4 fw-bold">Painting<span class="text-accent fw-bold"> Knives</span></h2>
+										</div>
+										<p>Need Content Here</p>
 									</div>
 								</div>
 							</div>
