@@ -252,7 +252,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/portfolio-img.png" loading="lazy" alt="portfolio bag" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/portfolio-img.png" loading="lazy" alt="portfolio bag" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -293,7 +293,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-cases.png" loading="lazy" alt="Brush case" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-cases.png" loading="lazy" alt="Brush case" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -329,7 +329,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps.png" loading="lazy" alt="Brush wraps" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps.png" loading="lazy" alt="Brush wraps" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -366,7 +366,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/pencil-cases.png" loading="lazy" alt="Pencil Case" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/pencil-cases.png" loading="lazy" alt="Pencil Case" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -402,7 +402,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives1.png" loading="lazy" alt="painting knives" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives1.png" loading="lazy" alt="painting knives" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -419,7 +419,11 @@
 											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Painting Knives</h6>
 											<h2 class="mt-4 fw-bold">Painting<span class="text-accent fw-bold"> Knives</span></h2>
 										</div>
-										<p>Need Content Here</p>
+										<p>Indeutsch, a trusted supplier to the world, brings you precision-designed painting knives. We offers a comprehensive
+											selection of customizable blades and handles in a variety of unique shapes, styles, and sizes . Made from special-grade steel
+											these top-performing tools feature a unique single-piece construction for unmatched flexibility. The innovative design, born
+											from our global manufacturing expertise, allows artists worldwide to create a vast array of textures and seamlessly blend
+											colors on any surface</p>
 									</div>
 								</div>
 							</div>
@@ -432,7 +436,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/aprons.png" loading="lazy" alt="Aprons" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/aprons.png" loading="lazy" alt="Aprons" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -480,7 +484,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/studio-easel.png" loading="lazy" alt="Studio Easel –H type" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/studio-easel.png" loading="lazy" alt="Studio Easel –H type" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -513,7 +517,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/lyre-easel.png" loading="lazy" alt="Lyre Easel - A Type" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/lyre-easel.png" loading="lazy" alt="Lyre Easel - A Type" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -547,7 +551,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/folding-easel.png" loading="lazy" alt="Field Folding Easel" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/folding-easel.png" loading="lazy" alt="Field Folding Easel" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
@@ -579,7 +583,7 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/top-easel.png" loading="lazy" alt="Table Top Easel" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/top-easel.png" loading="lazy" alt="Table Top Easel" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
