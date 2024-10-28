@@ -117,11 +117,13 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="ms-product-img">
-										<div class="ms-product-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/components/manufacturing-division.png" loading="lazy" alt="manufacturing-division" id="ms-featured-img" class="ms-featured-img">
-											<div class="ms-thumbnails" style="margin-top: 20px;">
+										<div class="ms-product-img-container" id="manufacturing-division-pad">
+											<!-- <div class="zoom-img-container"> -->
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/manufacturing-division.png" loading="lazy" alt="manufacturing-division" id="ms-featured-img" class="ms-featured-img">
+											<!-- </div> -->
+											<!-- <div class="ms-thumbnails" style="margin-top: 20px;">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/manufacturing-division.png" alt="manufacturing-division" class="ms-thumbnail" onclick="changeImage(this)">
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</div>
@@ -134,6 +136,9 @@
 										<p>We have a separate Component manufacturing plant, with a facility to manufacture different types of Ferrules for Brushes (Artist, Cosmetic and Industrial) and Components for makeup packaging. </p>
 										<p>We have a well-equipped In-house Tool Room where we develop machines, tools, dies and fixtures required for component manufacturing. This technical centre is equipped with CAD/CAM technology that enables us to design and develop high precision components in the least possible time. </p>
 										<p>We have an in-house Pipe drawing plant that can draw Brass and Aluminium Pipes from diameters as small as 2mm to large diameters such as 35 mm. This provides the required input for our components division.</p>
+										<strong>Certification : </strong><p><small>
+All our components are REACH/ CPSIA compliant. Our manufacturing plant has received GREEN Certification from TUV Nord India.
+All wood components used in manufacturing are FSC certified.</small></p>
 									</div>
 								</div>
 							</div>
@@ -144,7 +149,9 @@
 								<div class="col-md-6">
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/components/brass-aluminium.png" loading="lazy" alt="brass-aluminium" id="ms-featured-img" class="ms-featured-img">
+											<div class="zoom-img-container">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/brass-aluminium.png" loading="lazy" alt="brass-aluminium" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<div class="ms-thumbnails" style="margin-top: 20px;">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/brass-aluminium.png" alt="brass-aluminium" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/brass-aluminium2.png" alt="brass-aluminium" class="ms-thumbnail" onclick="changeImage(this)">
@@ -173,7 +180,9 @@
 								<div class="col-md-6">
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/components/packaging.png" loading="lazy" alt="packaging" id="ms-featured-img" class="ms-featured-img">
+											<div class="zoom-img-container">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/packaging.png" loading="lazy" alt="packaging" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<div class="ms-thumbnails" style="margin-top: 20px;">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/packaging.png" alt="packaging" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/packaging2.png" alt="packaging" class="ms-thumbnail" onclick="changeImage(this)">
@@ -200,7 +209,9 @@
 								<div class="col-md-6">
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" loading="lazy" alt="precision-components" id="ms-featured-img" class="ms-featured-img">
+											<div class="zoom-img-container">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" loading="lazy" alt="precision-components" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<div class="ms-thumbnails" style="margin-top: 20px;">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle2.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
@@ -228,7 +239,9 @@
 								<div class="col-md-6">
 									<div class="ms-product-img">
 										<div class="ms-product-img-container">
-											<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" loading="lazy" alt="precision-components" id="ms-featured-img" class="ms-featured-img">
+											<div class="zoom-img-container">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" loading="lazy" alt="precision-components" id="ms-featured-img" class="ms-featured-img">
+											</div>
 											<div class="ms-thumbnails" style="margin-top: 20px;">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle2.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">

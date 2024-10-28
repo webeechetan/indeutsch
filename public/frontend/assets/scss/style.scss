@@ -1556,18 +1556,24 @@
 /*--- Products ----*/
 .product {
 
+    &-content{
+        
+        @media(max-width: 767px) {
+            padding-top: 30px;
+        }
+    }
     &-banner,
     &-banner1,
     &-banner2,
     &-banner4 {
         height: 100%;
         width: 100%;
-        padding: 40px 0;
+        padding: 7% 0;
         background-repeat: no-repeat;
         background-size: cover;
 
         @media(min-width:1400px) {
-            padding: 100px 0;
+            padding: 7% 0;
             background-position-x: 70%;
             background-position-y: 100%;
         }
@@ -1638,7 +1644,6 @@
 
         &-content {
             padding: 0 30px 20px;
-
         }
 
         &-title {
@@ -1938,7 +1943,9 @@ $border-color: #000;
         display: block;
     }
 }
-
+#painting-knives-pad{
+    padding: 10px;
+}
 div {
     .btn-new {
         background-color: #FF715B;
@@ -1981,3 +1988,22 @@ $product-button-hover-color: #fff;
         }
     }
 }
+.easels-text h2.mt-4.fw-bold {
+    font-size: 40px;
+    @media(max-width: 1370px) {
+        font-size: 34px !important;
+    }
+    @media(max-width: 1200px) {
+        font-size: 28px !important;
+    }
+    @media(max-width: 992px) {
+        font-size: 19px !important;
+    }
+    @media(max-width: 767px) {
+        font-size: 35px !important;
+    }
+}
+#manufacturing-division-pad{
+    padding: 20px;
+}
+

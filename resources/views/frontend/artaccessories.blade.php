@@ -399,7 +399,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="ms-product-img">
-										<div class="ms-product-img-container">
+										<div class="ms-product-img-container" id="painting-knives-pad">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
 												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" loading="lazy" alt="painting knives" id="ms-featured-img" class="ms-featured-img">
@@ -476,7 +476,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-easels-h-type" role="tabpanel"
+						<div class="tab-pane fade easels-text" id="pills-easels-h-type" role="tabpanel"
 							aria-labelledby="pills-easels-h-type">
 							<div class="row">
 								<div class="col-md-6">
@@ -499,7 +499,7 @@
 									<div class="product-content">
 										<div class="product-content-title">
 											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Studio Easel – H type</h6>
-											<h2 class="mt-4 fw-bold">Studio Easel –<p class="text-accent fw-bold"> H type</p>
+											<h2 class="mt-4 fw-bold">Studio Easel –<span class="text-accent fw-bold"> H type</span>
 											</h2>
 										</div>
 										<p>Material:- Beech wood/Pinewood</p>
@@ -509,7 +509,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-easels-a-type" role="tabpanel"
+						<div class="tab-pane fade easels-text" id="pills-easels-a-type" role="tabpanel"
 							aria-labelledby="pills-easels-a-type">
 							<div class="row">
 								<div class="col-md-6">
@@ -532,7 +532,7 @@
 									<div class="product-content">
 										<div class="product-content-title">
 											<h6 class=" mb-2"><span>Art Accessories<span>></span> </span> Lyre Easel - A Type</h6>
-											<h2 class="mt-4 fw-bold">Lyre Easel -<p class="text-accent fw-bold"> A Type </p>
+											<h2 class="mt-4 fw-bold">Lyre Easel -<span class="text-accent fw-bold"> A Type </span>
 											</h2>
 										</div>
 										<p>Material:- Beech wood/Pinewood
@@ -543,7 +543,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-easels-folding-easel" role="tabpanel"
+						<div class="tab-pane fade easels-text" id="pills-easels-folding-easel" role="tabpanel"
 							aria-labelledby="pills-easels-folding-easel">
 							<div class="row">
 								<div class="col-md-6">
@@ -575,7 +575,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-easels-top-easel" role="tabpanel"
+						<div class="tab-pane fade easels-text" id="pills-easels-top-easel" role="tabpanel"
 							aria-labelledby="pills-easels-top-easel">
 							<div class="row">
 								<div class="col-md-6">

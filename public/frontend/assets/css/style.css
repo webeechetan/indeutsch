@@ -2265,16 +2265,21 @@ iframe {
 .product {
   /*-- Single Product ---*/
 }
+@media (max-width: 767px) {
+  .product-content {
+    padding-top: 30px;
+  }
+}
 .product-banner, .product-banner1, .product-banner2, .product-banner4 {
   height: 100%;
   width: 100%;
-  padding: 40px 0;
+  padding: 7% 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (min-width: 1400px) {
   .product-banner, .product-banner1, .product-banner2, .product-banner4 {
-    padding: 100px 0;
+    padding: 7% 0;
     background-position-x: 70%;
     background-position-y: 100%;
   }
@@ -2549,6 +2554,10 @@ iframe {
   display: block;
 }
 
+#painting-knives-pad {
+  padding: 10px;
+}
+
 div .btn-new {
   background-color: #FF715B;
   border: 1px solid #FF715B;
@@ -2578,4 +2587,32 @@ div .btn-new {
 }
 .product-content .content-full p {
   margin-bottom: 10px;
+}
+
+.easels-text h2.mt-4.fw-bold {
+  font-size: 40px;
+}
+@media (max-width: 1370px) {
+  .easels-text h2.mt-4.fw-bold {
+    font-size: 34px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .easels-text h2.mt-4.fw-bold {
+    font-size: 28px !important;
+  }
+}
+@media (max-width: 992px) {
+  .easels-text h2.mt-4.fw-bold {
+    font-size: 19px !important;
+  }
+}
+@media (max-width: 767px) {
+  .easels-text h2.mt-4.fw-bold {
+    font-size: 35px !important;
+  }
+}
+
+#manufacturing-division-pad {
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */

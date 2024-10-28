@@ -622,56 +622,102 @@ function changeImage(thumbnail) {
         }
     }
 
-// // // Image Zoom Effect MS
+//Zoom Effect Start From Here
+
 // document.addEventListener('DOMContentLoaded', function() {
-//   const zoomImgContainer = document.querySelector('.zoom-img-container');
-//   const featuredImage = document.querySelector('.ms-featured-img');
-//   const lens = document.createElement('div');
-//   lens.classList.add('ms-magnifier-lens');
-//   zoomImgContainer.appendChild(lens);
+//   const zoomContainers = document.querySelectorAll('.zoom-img-container');
 
-//   // Get the dimensions of the featured image
-//   const imageWidth = featuredImage.width;
-//   const imageHeight = featuredImage.height;
+//   zoomContainers.forEach(zoomImgContainer => {
+//       const featuredImage = zoomImgContainer.querySelector('.ms-featured-img');
+//       const lens = document.createElement('div');
+//       lens.classList.add('ms-magnifier-lens');
+//       zoomImgContainer.appendChild(lens);
 
-//   // Set up the magnification (zoom level)
-//   const magnification = 2.5; // Adjust this to control zoom level
+//       const imageWidth = featuredImage.width;
+//       const imageHeight = featuredImage.height;
+//       const magnification = 2.5; // Adjust this to control zoom level
+//       const lensSize = 200; // Lens diameter in pixels
+//       lens.style.width = `${lensSize}px`;
+//       lens.style.height = `${lensSize}px`;
 
-//   // Lens size (adjust this based on your desired lens size)
-//   const lensSize = 150; // Lens diameter in pixels
-//   lens.style.width = `${lensSize}px`;
-//   lens.style.height = `${lensSize}px`;
+//       zoomImgContainer.addEventListener('mousemove', function(e) {
+//           const containerRect = zoomImgContainer.getBoundingClientRect();
+//           const mouseX = e.clientX - containerRect.left;
+//           const mouseY = e.clientY - containerRect.top;
 
-//   // Lens movement and magnification logic
-//   zoomImgContainer.addEventListener('mousemove', function(e) {
-//       const containerRect = zoomImgContainer.getBoundingClientRect();
-//       const mouseX = e.clientX - containerRect.left;
-//       const mouseY = e.clientY - containerRect.top;
+//           // Calculate the position of the lens
+//           const lensOffsetX = Math.min(Math.max(mouseX - lensSize / 2, 0), imageWidth - lensSize);
+//           const lensOffsetY = Math.min(Math.max(mouseY - lensSize / 2, 0), imageHeight - lensSize);
 
-//       // Calculate the position of the lens, ensuring it stays within image bounds
-//       const lensOffsetX = Math.min(Math.max(mouseX - lensSize / 2, 0), imageWidth - lensSize);
-//       const lensOffsetY = Math.min(Math.max(mouseY - lensSize / 2, 0), imageHeight - lensSize);
+//           // Position the lens
+//           lens.style.left = `${lensOffsetX}px`;
+//           lens.style.top = `${lensOffsetY}px`;
 
-//       // Position the lens directly under the cursor
-//       lens.style.left = `${lensOffsetX}px`;
-//       lens.style.top = `${lensOffsetY}px`;
+//           // Set the background image and apply magnification to simulate zoom
+//           lens.style.backgroundImage = `url(${featuredImage.src})`;
+//           // lens.style.backgroundSize = `${imageWidth * magnification}px ${imageHeight * magnification}px`;
 
-//       // Set the background image and apply magnification to simulate zoom
-//       lens.style.backgroundImage = `url(${featuredImage.src})`;
-//       lens.style.backgroundSize = `${imageWidth * magnification}px ${imageHeight * magnification}px`;
+//           // Adjust the background position based on the lens position and magnification
+//           lens.style.backgroundPosition = `-${lensOffsetX * magnification}px -${lensOffsetY * magnification}px`;
+//       });
 
-//       // Adjust the background position to center the zoomed-in view
-//       lens.style.backgroundPosition = `-${lensOffsetX * magnification}px -${lensOffsetY * magnification}px`;
-//   });
+//       zoomImgContainer.addEventListener('mouseleave', function() {
+//           lens.style.display = 'none';
+//           featuredImage.style.opacity = 1; // Reset image opacity
+//       });
 
-//   // Hide the lens when the mouse leaves the container
-//   zoomImgContainer.addEventListener('mouseleave', function() {
-//       lens.style.display = 'none';
-//       featuredImage.style.opacity = 1; // Reset image opacity
-//   });
-
-//   // Show the lens when mouse enters
-//   zoomImgContainer.addEventListener('mouseenter', function() {
-//       lens.style.display = 'block';
+//       zoomImgContainer.addEventListener('mouseenter', function() {
+//           lens.style.display = 'block';
+//       });
 //   });
 // });
+document.addEventListener('DOMContentLoaded', function() {
+  const zoomContainers = document.querySelectorAll('.zoom-img-container');
+
+  zoomContainers.forEach(zoomImgContainer => {
+      const featuredImage = zoomImgContainer.querySelector('.ms-featured-img');
+      const lens = document.createElement('div');
+      lens.classList.add('ms-magnifier-lens');
+      zoomImgContainer.appendChild(lens);
+
+      const imageWidth = featuredImage.width;
+      const imageHeight = featuredImage.height;
+      const magnification = 2.5; // Adjust this to control zoom level
+      const lensSize = 200; // Lens diameter in pixels
+      lens.style.width = `${lensSize}px`;
+      lens.style.height = `${lensSize}px`;
+
+      zoomImgContainer.addEventListener('mousemove', function(e) {
+          const containerRect = zoomImgContainer.getBoundingClientRect();
+          const mouseX = e.clientX - containerRect.left;
+          const mouseY = e.clientY - containerRect.top;
+
+          // Calculate the position of the lens, allowing it to exceed the container
+          let lensOffsetX = mouseX - lensSize / 2;
+          let lensOffsetY = mouseY - lensSize / 2;
+
+          // Ensure the lens does not go beyond the image boundaries
+          lensOffsetX = Math.max(0, Math.min(lensOffsetX, imageWidth)); // Can exceed container but not image
+          lensOffsetY = Math.max(0, Math.min(lensOffsetY, imageHeight)); // Can exceed container but not image
+
+          // Position the lens
+          lens.style.left = `${lensOffsetX}px`;
+          lens.style.top = `${lensOffsetY}px`;
+
+          // Set the background image
+          lens.style.backgroundImage = `url(${featuredImage.src})`;
+
+          // Adjust the background position based on the lens position and magnification
+          lens.style.backgroundPosition = `-${lensOffsetX * magnification}px -${lensOffsetY * magnification}px`;
+      });
+
+      zoomImgContainer.addEventListener('mouseleave', function() {
+          lens.style.display = 'none';
+          featuredImage.style.opacity = 1; // Reset image opacity
+      });
+
+      zoomImgContainer.addEventListener('mouseenter', function() {
+          lens.style.display = 'block';
+      });
+  });
+});
