@@ -402,12 +402,12 @@
 										<div class="ms-product-img-container" id="painting-knives-pad">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" loading="lazy" alt="painting knives" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives1.png" loading="lazy" alt="painting knives" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives1.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
