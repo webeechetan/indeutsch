@@ -240,14 +240,14 @@
 						</li>
 
 						<!-- Certificate 6 -->
-						<li>
+						<!-- <li>
 							<div class="certifications-icons-item">
 								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_5.png" alt="Certificate">
 								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Green_Product_Certificate-Indeutsch-05082023.pdf"><i class='bx bx-link-external'></i></a>
 							</div>
 							<div class="font-weight-600">Green Product Certification</div>
 							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Green_Product_Certificate-Indeutsch-05082023.pdf">View</a>
-						</li>
+						</li> -->
 
 						<!-- Certificate 7 -->
 						<li>
