@@ -407,11 +407,10 @@
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
 												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives1.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)">
-												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)">
+											<a href="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png">	<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)"></a>
 											</div>
 										</div>
 									</div>
-
 								</div>
 								<div class="col-md-6 ps-md-5">
 									<div class="product-content">
