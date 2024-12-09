@@ -43,7 +43,7 @@
 									</li>
 									<li>
 										<a href="javascript:void(0);">
-											<div class="product-category-list" id="portfolio-bag">
+											<div class="product-category-list" id="portfolio-bags">
 												<span class='bx bx-chevrons-right'></span>
 												<span>Portfolio Bag</span>
 											</div>
@@ -91,7 +91,7 @@
 									</li>
 									<li>
 										<a href="javascript:void(0);">
-											<div class="product-category-list" id="easels">
+											<div class="product-category-list" id="studio-easels-h-type">
 												<span class='bx bx-chevrons-right'></span>
 												<span>Studio Easel –H type</span>
 											</div>
@@ -99,7 +99,7 @@
 									</li>
 									<li>
 										<a href="javascript:void(0);">
-											<div class="product-category-list" id="easels">
+											<div class="product-category-list" id="easels-a-type">
 												<span class='bx bx-chevrons-right'></span>
 												<span>Lyre Easel- A Type</span>
 											</div>
@@ -107,7 +107,7 @@
 									</li>
 									<li>
 										<a href="javascript:void(0);">
-											<div class="product-category-list" id="easels">
+											<div class="product-category-list" id="easels-folding-easel">
 												<span class='bx bx-chevrons-right'></span>
 												<span>Field Folding Easel</span>
 											</div>
@@ -115,7 +115,7 @@
 									</li>
 									<li>
 										<a href="javascript:void(0);">
-											<div class="product-category-list" id="easels">
+											<div class="product-category-list" id="easels-top-easel">
 												<span class='bx bx-chevrons-right'></span>
 												<span>Table Top Easel</span>
 											</div>
@@ -128,12 +128,12 @@
 				</div>
 				<div class="product-category-otherlist">
 					<ul class="list-unstyled">
-						<li><a href="{{route('brushes')}}">Brushes</a></li>
-						<li><a href="components.php">Components</a></li>
-						<li><a href="{{route('artistCanvas')}}">Artist Canvas</a>
-						</li>
-						<li><a href="printingcanvas.php">Printing Canvas</a>
-						</li>
+						<!-- <li><a href="{{route('brushes')}}">Brushes</a></li> -->
+						<li><a class="{{ Route::is('components') ? 'active' : '' }}" href="{{ route('components') }}">Components</a></li>
+						<!-- <li><a href="{{route('artistCanvas')}}">Artist Canvas</a>
+						</li> -->
+						<!-- <li><a href="printingcanvas.php">Printing Canvas</a>
+						</li> -->
 					</ul>
 				</div>
 			</div>
@@ -146,9 +146,9 @@
 								aria-controls="pills-travel-bags" aria-selected="true">Travel Bags</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="pills-bags-tab" data-bs-toggle="pill"
-								data-bs-target="#pills-bags" type="button" role="tab"
-								aria-controls="pills-bags" aria-selected="false">Portfolio Bag</button>
+							<button class="nav-link" id="pills-portfolio-bags-tab" data-bs-toggle="pill"
+								data-bs-target="#pills-portfolio-bags" type="button" role="tab"
+								aria-controls="pills-portfolio-bags" aria-selected="false">Portfolio Bag</button>
 						</li>
 						<li class="nav-item" role="presentation">
 							<button class="nav-link" id="pills-brush-case-tab" data-bs-toggle="pill"
@@ -181,9 +181,9 @@
 								aria-controls="pills-painting-knives" aria-selected="false"> Painting Knives</button>
 						</li> -->
 						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="pills-easels-tab-h-type" data-bs-toggle="pill"
-								data-bs-target="#pills-easels-h-type" type="button" role="tab"
-								aria-controls="pills-easels-h-type" aria-selected="false"> Studio Easel –H type</button>
+							<button class="nav-link" id="pills-studio-easels-h-type-tab" data-bs-toggle="pill"
+								data-bs-target="#pills-studio-easels-h-type" type="button" role="tab"
+								aria-controls="pills-studio-easels-h-type" aria-selected="false"> Studio Easel –H type</button>
 						</li>
 						<li class="nav-item" role="presentation">
 							<button class="nav-link" id="pills-easels-tab-a-type" data-bs-toggle="pill"
@@ -244,8 +244,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-bags" role="tabpanel"
-							aria-labelledby="pills-bags-tab">
+						<div class="tab-pane fade" id="pills-portfolio-bags" role="tabpanel"
+							aria-labelledby="pills-portfolio-bags-tab">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="ms-product-img">
@@ -407,7 +407,7 @@
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
 												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives1.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)">
-											<a href="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png">	<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)"></a>
+												<a href="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png"> <img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/painting-knives2.png" alt="painting knives" class="ms-thumbnail" onclick="changeImage(this)"></a>
 											</div>
 										</div>
 									</div>
@@ -475,8 +475,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade easels-text" id="pills-easels-h-type" role="tabpanel"
-							aria-labelledby="pills-easels-h-type">
+						<div class="tab-pane fade easels-text" id="pills-studio-easels-h-type" role="tabpanel"
+							aria-labelledby="pills-studio-easels-h-type-tab">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="ms-product-img">

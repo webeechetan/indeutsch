@@ -75,10 +75,10 @@
 				</div>
 				<div class="product-category-otherlist">
 					<ul class="list-unstyled">
-						<li><a href="{{route('brushes')}}">Brushes</a></li>
-						<li><a href="{{route('artistCanvas')}}">Artist Canvas</a></li>
+						<!-- <li><a href="{{route('brushes')}}">Brushes</a></li> -->
+						<!-- <li><a href="{{route('artistCanvas')}}">Artist Canvas</a></li> -->
 						<li><a href="{{route('artAccessories')}}">Art Accessories</a></li>
-						<li><a href="printingcanvas.php">Printing Canvas</a></li>
+						<!-- <li><a href="printingcanvas.php">Printing Canvas</a></li> -->
 					</ul>
 				</div>
 			</div>

@@ -721,3 +721,40 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
+//Tab Linking
+$(document).ready(function () {
+  // Sync category list with tabs
+  $('.product-category-list').on('click', function () {
+    // Get the ID of the clicked category (this matches the corresponding tab)
+    var categoryId = $(this).attr('id'); // Example: portfolio-bag
+    
+    // Activate the corresponding tab by matching the ID
+    var tabId = '#pills-' + categoryId; // Example: #pills-portfolio-bag
+    
+    // Activate the tab using Bootstrap's tab system
+    $('button[data-bs-target="' + tabId + '"]').tab('show');
+    
+    // Mark the clicked category list as active
+    $('.product-category-list').removeClass('active');
+    $(this).addClass('active');
+    
+    // Optionally, mark the corresponding tab button as active
+    $('.nav-link').removeClass('active');
+    $('button[data-bs-target="' + tabId + '"]').addClass('active');
+  });
+  
+  // Sync tabs with category list
+  $('.nav-link').on('click', function () {
+    // Get the target tab content ID from data-bs-target
+    var targetTab = $(this).data('bs-target').replace('#', ''); // Example: pills-bags
+    
+    // Activate the corresponding category list item
+    $('.product-category-list').removeClass('active');
+    $('#' + targetTab).addClass('active');
+  });
+
+  // Optional: Auto-activate first category and tab on page load
+  $('.nav-link:first').addClass('active');
+  $('.product-category-list:first').addClass('active');
+  $('#components-pills-tabContent .tab-pane:first').addClass('show active');
+});
