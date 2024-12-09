@@ -40,11 +40,11 @@
 
                             <li><a href="#">Brushes</a></li>
 
-                            <li><a href="#">Components</a></li>
+                            <li><a class="{{ Route::is('components') ? 'active' : '' }}" href="{{ route('components') }}">Components</a></li>
 
                             <li><a href="#">Canvas</a></li>
 
-                            <li><a href="#">Art Accessories</a></li>
+                            <li><a class="{{ Route::is('artAccessories') ? 'active' : '' }}" href="{{ route('artAccessories') }}">Art Accessories</a></li>
 
                         </ul>
 
