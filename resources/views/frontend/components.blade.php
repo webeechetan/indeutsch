@@ -214,6 +214,7 @@
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/precision-components.png" loading="lazy" alt="precision-components" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<div class="ms-thumbnails" style="margin-top: 20px;">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/precision-components.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/precision-components2.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/precision-components3.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/precision-components4.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
@@ -245,9 +246,9 @@
 												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" loading="lazy" alt="precision-components" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<div class="ms-thumbnails" style="margin-top: 20px;">
-												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)"> 
-												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle2.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)"> 
-												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle3.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)"> 
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle2.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/components/handle3.png" alt="precision-components" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
 										</div>
 									</div>
