@@ -25,7 +25,7 @@
   <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
   <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
   <!-- Favicon using PNG image -->
-  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="icon" href="https://indeutsch.com/frontend/assets/images/favicon.png" type="image/png">
 
   <!-- CSS FILES -->
 
