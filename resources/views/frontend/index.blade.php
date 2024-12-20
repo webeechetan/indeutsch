@@ -681,7 +681,7 @@
 
 							<div class="swiper-slide cursor-view">
 
-								<a href="#" class="pro_slider-item">
+								<a class="{{ Route::is('components') ? 'active' : '' }} pro_slider-item" href="{{ route('components') }}">
 
 									<div class="pro_slider-item-overlay"></div>
 
@@ -729,7 +729,7 @@
 
 							<div class="swiper-slide cursor-view">
 
-								<a href="#" class="pro_slider-item">
+								<a class="{{ Route::is('artAccessories') ? 'active' : '' }} pro_slider-item" href="{{ route('artAccessories') }}">
 
 									<div class="pro_slider-item-overlay"></div>
 
