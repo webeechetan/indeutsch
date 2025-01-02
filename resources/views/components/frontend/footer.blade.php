@@ -25,7 +25,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="copyright text-center">© 2024 Indeutsch Industries Private Limited. All Rights Reserved. Powered by <a href="#">Webeesocial</a></div>
+                <div class="copyright text-center">© 2025 Indeutsch Industries Private Limited. All Rights Reserved. Powered by <a href="#">Webeesocial</a></div>
             </div>
         </div>
     </div>
