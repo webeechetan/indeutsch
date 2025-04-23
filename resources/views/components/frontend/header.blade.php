@@ -38,7 +38,7 @@
 
                         <ul class="site-submenu">
 
-                            <li><a href="#">Brushes</a></li>
+                            <li><a class="{{ Route::is('brushes') ? 'active' : '' }}" href="{{ route('brushes') }}">Brushes</a></li>
 
                             <li><a class="{{ Route::is('components') ? 'active' : '' }}" href="{{ route('components') }}">Components</a></li>
 

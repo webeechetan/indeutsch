@@ -721,7 +721,7 @@
 
                         <div class="swiper-slide cursor-view">
 
-                            <a href="#" class="pro_slider-item">
+                            <a class="{{ Route::is('brushes') ? 'active' : '' }}" href="{{ route('brushes') }}">
 
                                 <div class="pro_slider-item-overlay"></div>
 
