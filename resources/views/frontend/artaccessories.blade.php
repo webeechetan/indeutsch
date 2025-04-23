@@ -329,11 +329,11 @@
 										<div class="ms-product-img-container">
 											<!-- Large Image -->
 											<div class="zoom-img-container">
-												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps.png" loading="lazy" alt="Brush wraps" id="ms-featured-img" class="ms-featured-img">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps2new.png" loading="lazy" alt="Brush wraps" id="ms-featured-img" class="ms-featured-img">
 											</div>
 											<!-- Thumbnails -->
 											<div class="ms-thumbnails">
-												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
+												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps2new.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps2.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
 												<img src="https://indeutsch.com/frontend/assets/images/products/art-accessories/brush-wraps3.png" alt="Brush wraps" class="ms-thumbnail" onclick="changeImage(this)">
 											</div>
