@@ -253,10 +253,10 @@
 						<li>
 							<div class="certifications-icons-item">
 								<img src="{{ asset('frontend') }}/assets/images/certifications/certificate_7.png" alt="Certificate">
-								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Indeutsch_Industries_Private_Limited_FSC_COC_Certificate_13_6_2022.pdf"><i class='bx bx-link-external'></i></a>
+								<a class="certifications-btn" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Indeutsch_Industries_Private_Limited_FSC_COC_Certificate_23.12.2024.pdf"><i class='bx bx-link-external'></i></a>
 							</div>
 							<div class="font-weight-600">FSC<sup>TM</sup> Certification</div>
-							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Indeutsch_Industries_Private_Limited_FSC_COC_Certificate_13_6_2022.pdf">View</a>
+							<a class="custom-link d-md-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-pdf-url="{{ asset('frontend') }}/assets/pdf/Indeutsch_Industries_Private_Limited_FSC_COC_Certificate_23.12.2024.pdf">View</a>
 						</li>
 							<!-- Certificate 8 -->
 							<li>
