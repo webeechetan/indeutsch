@@ -1924,19 +1924,21 @@ $border-color: #000;
         width: 100%;
         height: auto;
         overflow: hidden;
+        cursor: crosshair;
+        display: inline-block;
     }
 
     /* The Magnifying Glass Lens */
     .ms-magnifier-lens {
-        position: absolute;
-        border-radius: 50%;
-        cursor: none;
+        position: absolute; 
+        border: 2px solid #ccc; 
+        border-radius: 50%; 
+        background-color: rgba(255, 255, 255, 0.3); 
         background-repeat: no-repeat;
-        background-size: 400% 400%;
         display: none;
         pointer-events: none;
-        z-index: 10;
-    }
+        z-index: 10; 
+      }
 
     /* Hide lens if mouse is not hovering */
     .zoom-img-container:hover .ms-magnifier-lens {

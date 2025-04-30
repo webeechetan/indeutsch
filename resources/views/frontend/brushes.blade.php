@@ -29,16 +29,24 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true"
                                 aria-controls="collapseOne">
-                                Brush Division
+                                Brushes
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show"
                             aria-labelledby="headingOne" data-bs-parent="#accordionCategory">
                             <div class="accordion-body">
                                 <ul class="list-unstyled mb-0">
+                                <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="product-category-list active" id="brush-division">
+                                                <span class='bx bx-chevrons-right'></span>
+                                                <span>Brush Division</span>
+                                            </div>
+                                        </a>
+                                    </li>
                                     <li>
                                         <a href="javascript:void(0);">
-                                            <div class="product-category-list active" id="artist-brushes">
+                                            <div class="product-category-list" id="artist-brushes">
                                                 <span class='bx bx-chevrons-right'></span>
                                                 <span>Artist Brushes</span>
                                             </div>
@@ -89,8 +97,13 @@
             <div class="col-md-9">
                 <div class="product-category-tab">
                     <ul class="nav nav-pills mb-3" id="components-pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-brush-division-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-brush-division" type="button" role="tab"
+                                aria-controls="pills-brush-division" aria-selected="true">Brush Division</button>
+                        </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-artist-brushes-tab" data-bs-toggle="pill"
+                            <button class="nav-link" id="pills-artist-brushes-tab" data-bs-toggle="pill"
                                 data-bs-target="#pills-artist-brushes" type="button" role="tab"
                                 aria-controls="pills-artist-brushes" aria-selected="true">Artist Brushes</button>
                         </li>
@@ -111,7 +124,44 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="components-pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-artist-brushes" role="tabpanel"
+                        <div class="tab-pane fade show active" id="pills-brush-division" role="tabpanel"
+                            aria-labelledby="pills-brush-division-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ms-product-img">
+                                        <div class="ms-product-img-container" id="brush-division-pad">
+                                            <img src="/frontend/assets/images/products/brushes/brush-division.png" loading="lazy" alt="brush-division" id="ms-featured-img" class="ms-featured-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ps-md-5">
+                                    <div class="product-content">
+                                        <div class="product-content-title">
+                                            <h6 class="mb-2"><span>Brushes<span>></span> </span> Brush Division</h6>
+                                            <h2 class="mt-4 fw-bold">Brush <span class="text-accent fw-bold"> Division</span></h2>
+                                        </div>
+                                        <p>Indeutsch Industries is a leading global manufacturer of
+                                            premium brushes for artist, cosmetic, craft, school & hobby
+                                            and industrial applications. We meticulously manage every
+                                            aspect of production, from concept and design to packaging,
+                                            ensuring exceptional quality. Our handmade brushes are
+                                            crafted to exceed performance expectations, reflecting our
+                                            commitment to uncompromising standards, LEAN principles,
+                                            and a passion for creating tools that inspire and delight. </p>
+                                        <p>We are experienced in international trade and compliance
+                                            regulations, making it easy to partner with us from anywhere in
+                                            the world. </p>
+                                        <p>Our manufacturing capabilities support high-volume orders and
+                                            provide access to a diverse range of filaments, including high
+                                            performance synthetic mixtures. We excel at creating
+                                            customized brushes, offering flexibility in hair shape, handle &
+                                            ferrule design packaging options in order to meet your unique
+                                            requirements.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-artist-brushes" role="tabpanel"
                             aria-labelledby="pills-artist-brushes-tab">
                             <div class="row">
                                 <div class="col-md-6">

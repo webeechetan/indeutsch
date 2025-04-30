@@ -2539,13 +2539,15 @@ iframe {
   width: 100%;
   height: auto;
   overflow: hidden;
+  cursor: crosshair;
+  display: inline-block;
 }
 .ms-product-img .ms-magnifier-lens {
   position: absolute;
+  border: 2px solid #ccc;
   border-radius: 50%;
-  cursor: none;
+  background-color: rgba(255, 255, 255, 0.3);
   background-repeat: no-repeat;
-  background-size: 400% 400%;
   display: none;
   pointer-events: none;
   z-index: 10;

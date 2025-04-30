@@ -623,7 +623,6 @@ function changeImage(thumbnail) {
     }
 
 //Zoom Effect Start From Here
-
 // document.addEventListener('DOMContentLoaded', function() {
 //   const zoomContainers = document.querySelectorAll('.zoom-img-container');
 
@@ -645,17 +644,20 @@ function changeImage(thumbnail) {
 //           const mouseX = e.clientX - containerRect.left;
 //           const mouseY = e.clientY - containerRect.top;
 
-//           // Calculate the position of the lens
-//           const lensOffsetX = Math.min(Math.max(mouseX - lensSize / 2, 0), imageWidth - lensSize);
-//           const lensOffsetY = Math.min(Math.max(mouseY - lensSize / 2, 0), imageHeight - lensSize);
+//           // Calculate the position of the lens, allowing it to exceed the container
+//           let lensOffsetX = mouseX - lensSize / 2;
+//           let lensOffsetY = mouseY - lensSize / 2;
+
+//           // Ensure the lens does not go beyond the image boundaries
+//           lensOffsetX = Math.max(0, Math.min(lensOffsetX, imageWidth)); // Can exceed container but not image
+//           lensOffsetY = Math.max(0, Math.min(lensOffsetY, imageHeight)); // Can exceed container but not image
 
 //           // Position the lens
 //           lens.style.left = `${lensOffsetX}px`;
 //           lens.style.top = `${lensOffsetY}px`;
 
-//           // Set the background image and apply magnification to simulate zoom
+//           // Set the background image
 //           lens.style.backgroundImage = `url(${featuredImage.src})`;
-//           // lens.style.backgroundSize = `${imageWidth * magnification}px ${imageHeight * magnification}px`;
 
 //           // Adjust the background position based on the lens position and magnification
 //           lens.style.backgroundPosition = `-${lensOffsetX * magnification}px -${lensOffsetY * magnification}px`;
@@ -674,50 +676,77 @@ function changeImage(thumbnail) {
 document.addEventListener('DOMContentLoaded', function() {
   const zoomContainers = document.querySelectorAll('.zoom-img-container');
 
-  zoomContainers.forEach(zoomImgContainer => {
-      const featuredImage = zoomImgContainer.querySelector('.ms-featured-img');
-      const lens = document.createElement('div');
-      lens.classList.add('ms-magnifier-lens');
-      zoomImgContainer.appendChild(lens);
+  zoomContainers.forEach(container => {
+      const image = container.querySelector('.ms-featured-img');
+      let lens = container.querySelector('.ms-magnifier-lens'); // Check if lens already exists
 
-      const imageWidth = featuredImage.width;
-      const imageHeight = featuredImage.height;
-      const magnification = 2.5; // Adjust this to control zoom level
-      const lensSize = 200; // Lens diameter in pixels
+      // Create lens only if it doesn't exist
+      if (!lens) {
+          lens = document.createElement('div');
+          lens.classList.add('ms-magnifier-lens');
+          container.appendChild(lens);
+      }
+
+      // --- Configuration ---
+      const magnification = 2.5;
+      const lensSize = 200;
+      // --- End Configuration ---
       lens.style.width = `${lensSize}px`;
       lens.style.height = `${lensSize}px`;
 
-      zoomImgContainer.addEventListener('mousemove', function(e) {
-          const containerRect = zoomImgContainer.getBoundingClientRect();
-          const mouseX = e.clientX - containerRect.left;
-          const mouseY = e.clientY - containerRect.top;
+      let imgWidth, imgHeight, lensHalfSize, bgWidth, bgHeight;
+      function setupZoom() {
+          // Use offsetWidth/Height for displayed dimensions
+          imgWidth = image.offsetWidth;
+          imgHeight = image.offsetHeight;
+          if (imgWidth === 0 || imgHeight === 0) {
+              console.warn("Image dimensions are 0. Zoom may not work correctly yet.");
+              return false;
+          }
+          lensHalfSize = lensSize / 2;
+          // Set background properties for the lens
+          lens.style.backgroundImage = `url('${image.src}')`;
+          bgWidth = imgWidth * magnification;
+          bgHeight = imgHeight * magnification;
+          lens.style.backgroundSize = `${bgWidth}px ${bgHeight}px`;
 
-          // Calculate the position of the lens, allowing it to exceed the container
-          let lensOffsetX = mouseX - lensSize / 2;
-          let lensOffsetY = mouseY - lensSize / 2;
-
-          // Ensure the lens does not go beyond the image boundaries
-          lensOffsetX = Math.max(0, Math.min(lensOffsetX, imageWidth)); // Can exceed container but not image
-          lensOffsetY = Math.max(0, Math.min(lensOffsetY, imageHeight)); // Can exceed container but not image
-
-          // Position the lens
-          lens.style.left = `${lensOffsetX}px`;
-          lens.style.top = `${lensOffsetY}px`;
-
-          // Set the background image
-          lens.style.backgroundImage = `url(${featuredImage.src})`;
-
-          // Adjust the background position based on the lens position and magnification
-          lens.style.backgroundPosition = `-${lensOffsetX * magnification}px -${lensOffsetY * magnification}px`;
-      });
-
-      zoomImgContainer.addEventListener('mouseleave', function() {
-          lens.style.display = 'none';
-          featuredImage.style.opacity = 1; // Reset image opacity
-      });
-
-      zoomImgContainer.addEventListener('mouseenter', function() {
           lens.style.display = 'block';
+          return true;
+      }
+
+      // Function to handle mouse movement
+      function moveLens(e) {
+          const rect = image.getBoundingClientRect();
+          let mouseX = e.clientX - rect.left;
+          let mouseY = e.clientY - rect.top;
+          mouseX = Math.max(0, Math.min(mouseX, imgWidth));
+          mouseY = Math.max(0, Math.min(mouseY, imgHeight));
+          let lensX = mouseX - lensHalfSize;
+          let lensY = mouseY - lensHalfSize;
+          let bgX = -(mouseX * magnification - lensHalfSize);
+          let bgY = -(mouseY * magnification - lensHalfSize);
+          lensX = Math.max(0, Math.min(lensX, imgWidth - lensSize));
+          lensY = Math.max(0, Math.min(lensY, imgHeight - lensSize));
+          bgX = Math.max(-(bgWidth - lensSize), Math.min(0, bgX));
+          bgY = Math.max(-(bgHeight - lensSize), Math.min(0, bgY));
+          lens.style.left = `${lensX}px`;
+          lens.style.top = `${lensY}px`;
+          lens.style.backgroundPosition = `${bgX}px ${bgY}px`;
+      }
+
+      // --- Event Listeners ---
+      container.addEventListener('mouseenter', (e) => {
+          if (!setupZoom()) {
+              lens.style.display = 'none'; 
+              return;
+          };
+          moveLens(e);
+      });
+
+      container.addEventListener('mousemove', moveLens);
+
+      container.addEventListener('mouseleave', () => {
+          lens.style.display = 'none';
       });
   });
 });
