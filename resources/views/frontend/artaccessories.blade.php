@@ -128,7 +128,7 @@
 				</div>
 				<div class="product-category-otherlist">
 					<ul class="list-unstyled">
-						<!-- <li><a href="{{route('brushes')}}">Brushes</a></li> -->
+						<li><a href="{{route('brushes')}}">Brushes</a></li>
 						<li><a class="{{ Route::is('components') ? 'active' : '' }}" href="{{ route('components') }}">Components</a></li>
 						<!-- <li><a href="{{route('artistCanvas')}}">Artist Canvas</a>
 						</li> -->
