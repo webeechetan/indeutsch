@@ -3,7 +3,7 @@
 <section class="product-banner">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 brushes-banner">
                 <h2 class="title-wrap-20">Brush Division</h2>
                 <p>Indeutsch Industries is a leading global manufacturer of
                     premium brushes for artist, cosmetic, craft, school & hobby

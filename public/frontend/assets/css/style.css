@@ -2565,6 +2565,11 @@ div .btn-new {
   border: 1px solid #FF715B;
 }
 
+/* Brushes */
+.brushes-banner {
+  padding-right: 80px;
+}
+
 /* Read More */
 .product-content .read-more {
   background-color: #F74225;
