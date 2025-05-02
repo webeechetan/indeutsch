@@ -1,22 +1,20 @@
 @extends('frontend.layouts.app')
 @section('content')
-<section class="product-banner">
+<section class="new-banner-section">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 brushes-banner">
-                <h2 class="title-wrap-20">Brush Division</h2>
-                <p>Indeutsch Industries is a leading global manufacturer of
-                    premium brushes for artist, cosmetic, craft, school & hobby
-                    and industrial applications. We meticulously manage every
-                    aspect of production, from concept and design to packaging,
-                    ensuring exceptional quality. Our handmade brushes are
-                    crafted to exceed performance expectations, reflecting our
-                    commitment to uncompromising standards, LEAN principles,
-                    and a passion for creating tools that inspire and delight.</p>
+        <div class="new-banner-row">
+            <div class="new-banner-col-left">
+                <h2 class="title-wrap-20">Brush Division
+                </h2>
+                <p>Indeutsch Industries is a leading global manufacturer of premium brushes for artist, cosmetic, craft, school & hobby and industrial applications. We meticulously manage every aspect of production, from concept and design to packaging, ensuring exceptional quality. Our handmade brushes are crafted to exceed performance expectations, reflecting our commitment to uncompromising standards, LEAN principles, and a passion for creating tools that inspire and delight.
+                </p>
+            </div>
+            <div class="new-banner-col-right">
             </div>
         </div>
     </div>
 </section>
+
 <!-- Product List -->
 <section class="sec-space">
     <div class="container">
@@ -36,7 +34,7 @@
                             aria-labelledby="headingOne" data-bs-parent="#accordionCategory">
                             <div class="accordion-body">
                                 <ul class="list-unstyled mb-0">
-                                <li>
+                                    <li>
                                         <a href="javascript:void(0);">
                                             <div class="product-category-list active" id="brush-division">
                                                 <span class='bx bx-chevrons-right'></span>
@@ -97,7 +95,7 @@
             <div class="col-md-9">
                 <div class="product-category-tab">
                     <ul class="nav nav-pills mb-3" id="components-pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
+                        <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="pills-brush-division-tab" data-bs-toggle="pill"
                                 data-bs-target="#pills-brush-division" type="button" role="tab"
                                 aria-controls="pills-brush-division" aria-selected="true">Brush Division</button>
