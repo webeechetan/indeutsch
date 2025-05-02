@@ -1,20 +1,23 @@
 @extends('frontend.layouts.app')
 @section('content')
 <!-- Product Banner  -->
-<section class="product-banner4">
+<div class="art-banner">
+<section class="new-banner-section">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<h2 class="title-wrap-20 text-light">Art Accessories</h2>
-				<p class="text-light">Indeutsch manufactures a comprehensive line of expertly designed brush bags, portfolio cases etc,
-					in a variety of materials and colors to seamlessly integrate with your brand identity. We also produce
-					durable and spacious portfolio cases to accommodate a wide range of art supplies. We are capable
-					of manufacturing these products as per design and specifications provided by our customers.
+		<div class="new-banner-row">
+			<div class="new-banner-col-left">
+				<h2 class="title-wrap-20">Art Accessories
+				</h2>
+				<p>Indeutsch manufactures a comprehensive line of expertly designed brush bags, portfolio cases etc, in a variety of materials and colors to seamlessly integrate with your brand identity. We also produce durable and spacious portfolio cases to accommodate a wide range of art supplies. We are capable of manufacturing these products as per design and specifications provided by our customers.
 				</p>
+			</div>
+			<div class="new-banner-col-right">
 			</div>
 		</div>
 	</div>
 </section>
+</div>
+
 <!-- Product List -->
 <section class="sec-space">
 	<div class="container">

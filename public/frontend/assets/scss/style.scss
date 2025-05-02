@@ -1954,10 +1954,14 @@ div {
         border: 1px solid #FF715B;
     }
 }
-/* Brushes */
-.brushes-banner{
-    padding-right: 80px;
-}
+.art-banner .new-banner-section {
+    background-image: url('../images/banner-art.webp');
+  }
+  .art-banner {
+    h2,p{
+        color: #fff;
+    }
+  }
 .new-banner-section {
     background-image: url('https://indeutsch.com/frontend/assets/images/products/brushes/brushes_banner.png');
     background-size: cover;

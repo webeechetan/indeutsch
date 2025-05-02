@@ -2565,9 +2565,12 @@ div .btn-new {
   border: 1px solid #FF715B;
 }
 
-/* Brushes */
-.brushes-banner {
-  padding-right: 80px;
+.art-banner .new-banner-section {
+  background-image: url("../images/banner-art.webp");
+}
+
+.art-banner h2, .art-banner p {
+  color: #fff;
 }
 
 .new-banner-section {
