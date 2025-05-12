@@ -1,26 +1,31 @@
 @extends('frontend.layouts.app')
 @section('content')
-<!-- Product Banner  -->
-<section class="product-banner2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="title-wrap-20">Canvas</h2>
-                <p>Enjoying a good reputation with a large number of buyers, Indeutsch products can be found
-                    in
-                    North America, almost all European countries, Australia, New Zealand, Middle East Asia,
-                    Latin
-                    America and other parts of the world.
-                </p>
+<div class="canvas-banner">
+    <section class="new-banner-section">
+        <div class="container">
+            <div class="new-banner-row">
+                <div class="new-banner-col-left">
+                    <h2 class="title-wrap-20">Canvas Division
+                    </h2>
+                    <p>Indeutsch is the Foremost Manufacturer and Exporter of HighQuality Canvas Products.
+                        Our large-scale manufacturing facility, spanning 80,000 square
+                        feet, possesses the capacity to prime 0.2 million linear meters
+                        canvas per month.
+                    </p>
+                </div>
+                <div class="new-banner-col-right">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
+
 <!-- Product List -->
 <section class="sec-space">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <!-- Left Sidebar Current Page Products  -->
+            <div class="col-md-2">
                 <div class="accordion" id="accordionCategory">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -36,17 +41,57 @@
                                 <ul class="list-unstyled mb-0">
                                     <li>
                                         <a href="javascript:void(0);">
-                                            <div class="product-category-list active" id="artistcanvas">
+                                            <div class="product-category-list active" id="canvas-division">
                                                 <span class='bx bx-chevrons-right'></span>
-                                                <span>Artist Canvas</span>
+                                                <span>Canvas Division</span>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:void(0);">
-                                            <div class="product-category-list" id="printingcanvas">
+                                            <div class="product-category-list" id="canvas-rolls">
                                                 <span class='bx bx-chevrons-right'></span>
-                                                <span>Printing Canvas</span>
+                                                <span>Canvas Rolls</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="product-category-list" id="canvas-blankets">
+                                                <span class='bx bx-chevrons-right'></span>
+                                                <span>Canvas Blankets</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="product-category-list" id="stretched-canvas">
+                                                <span class='bx bx-chevrons-right'></span>
+                                                <span>Stretched Canvas</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="product-category-list" id="canvas-pad">
+                                                <span class='bx bx-chevrons-right'></span>
+                                                <span>Canvas Pad</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="product-category-list" id="canvas-panels">
+                                                <span class='bx bx-chevrons-right'></span>
+                                                <span>Canvas Panels</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="product-category-list" id="stretcher-bar">
+                                                <span class='bx bx-chevrons-right'></span>
+                                                <span>Stretcher Bar</span>
                                             </div>
                                         </a>
                                     </li>
@@ -55,120 +100,168 @@
                         </div>
                     </div>
                 </div>
+                <!-- Left Sidebar Menu -->
                 <div class="product-category-otherlist">
                     <ul class="list-unstyled">
-                        <li><a href="brushes.php">Brushes</a></li>
-                        <li><a href="components.php">Components</a></li>
-                        <li><a href="artaccessories.php">Art
-                                Accessories</a></li>
+                        <li><a href="{{route('brushes')}}">Brushes</a>
+                        </li>
+                        <li><a class="{{ Route::is('components') ? 'active' : '' }}" href="{{ route('components') }}">Components</a></li>
+                        <li><a href="{{route('artAccessories')}}">Art Accessories</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-9">
+            <!-- Product Tabs -->
+            <div class="col-md-10">
                 <div class="product-category-tab">
                     <ul class="nav nav-pills mb-3" id="components-pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-artistcanvas-tab"
-                                data-bs-toggle="pill" data-bs-target="#pills-artistcanvas" type="button"
-                                role="tab" aria-controls="pills-artistcanvas" aria-selected="true">Artist
-                                Canvas</button>
+                            <button class="nav-link active" id="pills-canvas-division-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-canvas-division" type="button" role="tab"
+                                aria-controls="pills-canvas-division" aria-selected="true">Canvas Division</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-printingcanvas-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-printingcanvas" type="button" role="tab"
-                                aria-controls="pills-printingcanvas" aria-selected="false">Printing
-                                Canvas</button>
+                            <button class="nav-link" id="pills-canvas-rolls-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-canvas-rolls" type="button" role="tab"
+                                aria-controls="pills-canvas-rolls" aria-selected="true">Canvas Rolls</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-canvas-blankets-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-canvas-blankets" type="button" role="tab"
+                                aria-controls="pills-canvas-blankets" aria-selected="false">Canvas Blankets</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-stretched-canvas-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-stretched-canvas" type="button" role="tab"
+                                aria-controls="pills-stretched-canvas" aria-selected="false"> Stretched Canvas</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-canvas-pad-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-canvas-pad" type="button" role="tab"
+                                aria-controls="pills-canvas-pad" aria-selected="false"> Canvas Pad</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-canvas-panels-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-canvas-panels" type="button" role="tab"
+                                aria-controls="pills-canvas-panels" aria-selected="false"> Canvas Panels</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-stretcher-bar-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-stretcher-bar" type="button" role="tab"
+                                aria-controls="pills-stretcher-bar" aria-selected="false"> Stretcher Bar</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="components-pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-artistcanvas" role="tabpanel"
-                            aria-labelledby="pills-precision-tab">
+                        <div class="tab-pane fade show active" id="pills-canvas-division" role="tabpanel"
+                            aria-labelledby="pills-canvas-division-tab">
                             <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <div class="product-category-image">
-                                        <img src="{{ asset('frontend') }}/assets/images/canvas-rolls.jpg"
-                                            alt="water color brushes">
-                                        <div class="product-category-content">
-                                            <p class="product-category-title mb-0">Canvas<span
-                                                    class="fw-bold">Rolls</span></p>
-                                            <a  href="#" onclick="onViewProductClick('rolls')" type="button" class="btn btn-primary" data-category="rolls">View
-                                                Product</a>
+                                <div class="col-md-6">
+                                    <div class="ms-product-img">
+                                        <div class="ms-product-img-container" id="canvas-division-pad">
+                                            <img src="/frontend/assets/images/products/canvas/canvas-division.png" loading="lazy" alt="canvas-division" id="ms-featured-img" class="ms-featured-img">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="product-category-image">
-                                        <img src="{{ asset('frontend') }}/assets/images/strretched-canvas.jpg"
-                                            alt="water color brushes">
-                                        <div class="product-category-content">
-                                            <p class="product-category-title mb-0">Stretched<span
-                                                    class="fw-bold">Canvas</span></p>
-                                            <a href="#" onclick="onViewProductClick('stretched')" type="button" class="btn btn-primary" data-category="stretched">View
-                                                Product</a>
+                                <div class="col-md-6 ps-md-5">
+                                    <div class="product-content">
+                                        <div class="product-content-title">
+                                            <h6 class="mb-2"><span>Canvas<span>></span> </span> Canvas Division</h6>
+                                            <h2 class="mt-4 fw-bold">Canvas <span class="text-accent fw-bold"> Division</span></h2>
                                         </div>
+                                        <p>The Canvas division is equipped with various semi automatic machines to carry out its manufacturing
+                                            operations. We are committed to constantly coming up with new improvements and adding new products to
+                                            give our customers a competitive edge and a new experience.
+                                        </p>
+                                        <p>We have an in-house & well-equipped infrastructure to produce Canvas Rolls, Stretched Canvas, Panels and
+                                            Canvas Pads. We produce stretched canvas with pine wood stretcher bars
+                                            We use 100% Virgin Cotton Yarn, 100% Virgin Linen Yarn and
+                                            Polyester Cotton Yarn as per norms
+                                            Our machines have different stages of priming which help to
+                                            achieve a smooth and universal primed canvas.</p>
+                                        <p>Our canvas production is certified to ISO, PEFC, and REACH standards. We also adhere to ASTM D-4236
+                                            (LHAMA) and are a member of the SEDEX Ethical Trade initiative.</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="product-category-image">
-                                        <img src="{{ asset('frontend') }}/assets/images/canvas-special.jpg"
-                                            alt="water color brushes">
-                                        <div class="product-category-content">
-                                            <p class="product-category-title mb-0">Canvas<span
-                                                    class="fw-bold">Panels</span></p>
-                                            <a href="#" onclick="onViewProductClick('canva-panel')" type="button" class="btn btn-primary" data-category="canva-panel">View
-                                                Product</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-canvas-rolls" role="tabpanel"
+                            aria-labelledby="pills-canvas-rolls-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ms-product-img">
+                                        <div class="ms-product-img-container">
+                                            <!-- Large Image -->
+                                            <div class="zoom-img-container">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-rolls.png" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+                                            </div>
+                                            <!-- Thumbnails -->
+                                            <div class="ms-thumbnails">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-rolls.png" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="product-category-image">
-                                        <img src="{{ asset('frontend') }}/assets/images/canvas-rolls.jpg"
-                                            alt="water color brushes">
-                                        <div class="product-category-content">
-                                            <p class="product-category-title mb-0">Canvas<span
-                                                    class="fw-bold">Pads</span></p>
-                                                    <a href="#" onclick="onViewProductClick('pads')" type="button" class="btn btn-primary" data-category="pads">
-                                                        View Product
-                                                    </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="product-category-image">
-                                        <img src="{{ asset('frontend') }}/assets/images/canvas-special.jpg"
-                                            alt="water color brushes">
-                                        <div class="product-category-content">
-                                            <p class="product-category-title mb-0">Special<span
-                                                    class="fw-bold">Canvas Rolls</span>
-                                            </p>
-                                            <a href="#" onclick="onViewProductClick('special')" type="button" class="btn btn-primary" data-category="special">
-                                                View Product
-                                            </a>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
 
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-printingcanvas" role="tabpanel"
-                            aria-labelledby="pills-printingcanvas-tab">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <div class="product-category-image">
-                                        <img src="{{ asset('frontend') }}/assets/images/water-color.jpg"
-                                            alt="water color brushes">
-                                        <div class="product-category-content">
-                                            <p class="product-category-title mb-0">Printing<span
-                                                    class="fw-bold">Canvas</span></p>
-                                            <a href="water-color.php" type="button" class="btn btn-primary">View
-                                                Product</a>
+                                </div>
+                                <div class="col-md-6 ps-md-4">
+                                    <div class="product-content">
+                                        <div class="product-content-title">
+                                            <h6 class=" mb-2"><span>Canvas Division<span>></span> </span> Canvas Rolls</h6>
+                                            <h2 class="mt-4 fw-bold">Canvas<span class="text-accent fw-bold"> Rolls</span></h2>
                                         </div>
+                                        <p>Universally machine primed</p>
+                                        <ul>
+                                            <li> The machine primed gesso canvas ensures</li>
+                                            <li> Consistency in surface and is ready to use</li>
+                                            <li> Ideal for oil and acrylic painting</li>
+                                            <li> Acid free sizing</li>
+                                            <li> Gesso confirms to astm d-4236</li>
+                                        </ul>
+                                        <div class="table-wrap">
+                                            <div class="table-solo-leveling-wrapper">
+                                                <table class="table-solo-leveling">
+                                                    <tr>
+                                                        <td>Priming</td>
+                                                        <td>Acrylic Titanium Gesso</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fabric Quality</td>
+                                                        <td>4oz, 6oz, 7oz, 8oz, 10oz, 12oz, 14oz</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Quality</td>
+                                                        <td>Double / Triple Primed</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Roll Width<br>available in<br>inches</td>
+                                                        <td>42”,52”, 63”, 72”, 84”</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Roll Length</td>
+                                                        <td>
+                                                            5 meters, 10 meters, 25 meters, 50 meters,<br>
+                                                            100 meters, 6 yard, 12 yard, 30 yard, 50 yard<br>
+                                                            and 100 yard
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Packing</td>
+                                                        <td>
+                                                            Outer Tube , Box packing & Bulk packing, Customized<br>
+                                                            packaging is offered upon request
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Primed Colour<br>variety</td>
+                                                        <td>White, Black, Grey & Transparent</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
+                        <!-- Add HTML Here -->
                     </div>
                 </div>
             </div>

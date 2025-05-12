@@ -1881,6 +1881,7 @@ $border-color: #000;
     .ms-product-img-container {
         position: relative;
         padding: 30px;
+        border-radius: 15px;
         background: #fff;
         width: 100%;
         height: auto;
@@ -1888,6 +1889,7 @@ $border-color: #000;
         .ms-featured-img {
             // width: 380px;
             width: 100%;
+            border-radius: 15px;
             height: auto;
             display: block;
             max-width: 100%;
@@ -1905,10 +1907,11 @@ $border-color: #000;
                 width: 80px;
                 height: auto;
                 margin: 0 5px;
+                border-radius: 15px;
                 cursor: pointer;
                 border: 2px solid transparent;
                 transition: border 0.3s ease;
-                padding: 10px 5px;
+                padding: 5px 5px;
                 box-shadow: rgb(140 137 137 / 35%) 0px 5px 15px;
 
                 &:hover {
@@ -1954,6 +1957,9 @@ div {
         border: 1px solid #FF715B;
     }
 }
+.canvas-banner .new-banner-section {
+    background-image: url('../images/products/canvas/canvas-banner.png');
+  }
 .art-banner .new-banner-section {
     background-image: url('../images/banner-art.webp');
   }
@@ -1993,6 +1999,63 @@ div {
       }
     }
   }
+  /* Table */
+  .table-wrap {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+  .table-solo-leveling-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);;
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 15px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 10px;
+      }
+    
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+      }
+    .table-solo-leveling {
+      width: 100%;
+      min-width: 600px;
+      border-collapse: collapse;
+      font-family: sans-serif;
+      font-size: 14px;
+  
+      td {
+        padding: 12px 20px 12px;
+        vertical-align: middle;
+      }
+  
+      tr:nth-child(even) {
+        background-color: #fff;
+        border-style: solid;
+        border-color: #e5e7eb;
+        border-width: 1px;
+      }
+     tr:last-child {
+        background-color: transparent !important;
+        border-style: none !important;
+        border-width: 0 !important;
+        border-color: transparent !important;
+      }
+      
+      tr:nth-child(odd) {
+        background-color: rgb(243 244 246);
+        border-style: solid;
+        border-width: 1px;
+        border-color: #e5e7eb;
+      }
+    }
+  }
+}
   
 /* Read More */
 $product-button-color: #F74225;
