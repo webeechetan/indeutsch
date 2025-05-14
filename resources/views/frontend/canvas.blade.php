@@ -157,7 +157,7 @@
                                 <div class="col-md-6">
                                     <div class="ms-product-img">
                                         <div class="ms-product-img-container" id="canvas-division-pad">
-                                            <img src="/frontend/assets/images/products/canvas/canvas-division.png" loading="lazy" alt="canvas-division" id="ms-featured-img" class="ms-featured-img">
+                                            <img src="/frontend/assets/images/products/canvas/canvas-division-banner.png" loading="lazy" alt="canvas-division" id="ms-featured-img" class="ms-featured-img">
                                         </div>
                                     </div>
                                 </div>
@@ -209,11 +209,10 @@
                                         </div>
                                         <p>Universally machine primed</p>
                                         <ul>
-                                            <li> The machine primed gesso canvas ensures</li>
-                                            <li> Consistency in surface and is ready to use</li>
-                                            <li> Ideal for oil and acrylic painting</li>
-                                            <li> Acid free sizing</li>
-                                            <li> Gesso confirms to astm d-4236</li>
+                                            <li> The machine primed Gesso canvas ensures consistency in surface, and is ready to use</li>
+                                            <li> Ideal for Oil and Acrylic Painting</li>
+                                            <li> Acid free Sizing</li>
+                                            <li> Gesso confirms to ASTM D-4236</li>
                                         </ul>
                                         <div class="table-wrap">
                                             <div class="table-solo-leveling-wrapper">
