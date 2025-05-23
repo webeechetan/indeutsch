@@ -260,6 +260,292 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="tab-pane fade" id="pills-canvas-blankets" role="tabpanel"
+                            aria-labelledby="pills-canvas-blankets-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ms-product-img">
+                                        <div class="ms-product-img-container">
+                                            <!-- Large Image -->
+                                            <div class="zoom-img-container">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-blankets.jpg" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+                                            </div>
+                                            <!-- Thumbnails -->
+                                            <div class="ms-thumbnails">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-blankets.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 ps-md-4">
+                                    <div class="product-content">
+                                        <div class="product-content-title">
+                                            <h6 class=" mb-2"><span>Canvas Division<span>></span> </span> Canvas Blankets</h6>
+                                            <h2 class="mt-4 fw-bold">Canvas<span class="text-accent fw-bold"> Blankets</span></h2>
+                                        </div>
+                                        <p>Our convenient, 100% cotton, loom-state(Wooven Cotton
+                                            Fabric/non dyed) folded canvases come in a variety of lengths:
+                                            1, 3, 5, and 6 yards. Each piece is individually wrapped and
+                                            packaged for easy handling and storage. We offer unparalleled
+                                            customization options, allowing you to add personalized labels
+                                            to each piece and select from a wide range of widths, from 36
+                                            inches to 84” inches, to perfectly suit your project.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-stretched-canvas" role="tabpanel"
+                            aria-labelledby="pills-stretched-canvas-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ms-product-img">
+                                        <div class="ms-product-img-container">
+                                            <!-- Large Image -->
+                                            <div class="zoom-img-container">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas.jpg" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+                                            </div>
+                                            <!-- Thumbnails -->
+                                            <div class="ms-thumbnails">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 ps-md-4">
+                                    <div class="product-content">
+                                        <div class="product-content-title">
+                                            <h6 class=" mb-2"><span>Canvas Division<span>></span> </span> Stretched Canvas</h6>
+                                            <h2 class="mt-4 fw-bold">Stretched<span class="text-accent fw-bold"> Canvas</span></h2>
+                                        </div>
+                                        <p>Universally primed with Acrylic Titanium Gesso on Fabric</p>
+                                        <ul>
+                                            <li> Primed Canvas is stretched over kiln dried Pinewood stretcher frames</li>
+                                            <li> Stretcher Frames can be extended through Wooden Keys (wedges)</li>
+                                            <li> Each Stretched Canvas is individually shrink wrapped to protect from dust and acidic contact</li>
+                                            <li> Stretched Canvas available in various sizes and profiles</li>
+                                            <li> Acid free Sizing</li>
+                                            <li> Available in different Shapes- Oval, Rectangle, Round & Square</li>
+                                            <li> Suitable for Oil and Acrylic Painting</li>
+                                        </ul>
+                                        <div class="table-wrap">
+                                            <div class="table-solo-leveling-wrapper">
+                                                <table class="table-solo-leveling">
+                                                    <tr>
+                                                        <td>Pack / Box</td>
+                                                        <td>5pcs, 6pcs 10pcs, 36 pcs (On Request)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Shrink Pack</td>
+                                                        <td>Individual / Twin Pack / Multi Pack</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fabric Quality</td>
+                                                        <td>4oz, 5oz, 7oz, 8oz, 10oz, 12oz, 14oz,17oz</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Wood Profile</td>
+                                                        <td>19x38mm, 24x 38mm,35 x 35mm , 51 x 35mm (Customization is<br>offered)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Priming</td>
+                                                        <td>Double / Triple Primed</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Wood Type</td>
+                                                        <td>Pine Wood</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Frame<br>Support</td>
+                                                        <td>Single / Cross/Diamond</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fabric</td>
+                                                        <td>100% Cotton/100%Linen & Polycotton</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-canvas-pad" role="tabpanel"
+                            aria-labelledby="pills-canvas-pad-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ms-product-img">
+                                        <div class="ms-product-img-container">
+                                            <!-- Large Image -->
+                                            <div class="zoom-img-container">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-pad.jpg" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+                                            </div>
+                                            <!-- Thumbnails -->
+                                            <div class="ms-thumbnails">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-pad.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 ps-md-4">
+                                    <div class="product-content">
+                                        <div class="product-content-title">
+                                            <h6 class=" mb-2"><span>Canvas Division<span>></span> </span> Canvas Pad</h6>
+                                            <h2 class="mt-4 fw-bold">Canvas<span class="text-accent fw-bold"> Pad</span></h2>
+                                        </div>
+                                        <p>Primed Canvas available in a Pad form containing 10 leafs</p>
+                                        <ul>
+                                            <li> Each Canvas Pad is individually shrink wrapped to protect from dust and acidic contact</li>
+                                            <li> Suitable for Oil and acrylic Painting</li>
+                                            <li> Available in a wide range of sizes upto 18” x 24”</li>
+                                        </ul>
+                                        <div class="table-wrap">
+                                            <div class="table-solo-leveling-wrapper">
+                                                <table class="table-solo-leveling">
+                                                    <tr>
+                                                        <td>Pack / Box</td>
+                                                        <td>12 pcs,10 pcs (Customization is offered)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Shrink Pack</td>
+                                                        <td>Individual</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fabric Quality</td>
+                                                        <td>4oz,6oz, 7Oz, 8oz</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Priming</td>
+                                                        <td>Double / Triple Primed</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Primed Colour variety</td>
+                                                        <td>White,Black& Pastel Colors</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fabric</td>
+                                                        <td>100% Cotton/Polycotton/100%Linen</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-canvas-panels" role="tabpanel"
+                            aria-labelledby="pills-canvas-panels-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ms-product-img">
+                                        <div class="ms-product-img-container">
+                                            <!-- Large Image -->
+                                            <div class="zoom-img-container">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-panels-black.jpg" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+                                            </div>
+                                            <!-- Thumbnails -->
+                                            <div class="ms-thumbnails">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-panels-black.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-panels-tirangle.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 ps-md-4">
+                                    <div class="product-content">
+                                        <div class="product-content-title">
+                                            <h6 class=" mb-2"><span>Canvas Division<span>></span> </span> Canvas Panels</h6>
+                                            <h2 class="mt-4 fw-bold">Canvas<span class="text-accent fw-bold"> Panels</span></h2>
+                                        </div>
+                                        <p>Primed Canvas is pasted on MDF(CARB
+                                            Complaint)/Paperboard</p>
+                                        <ul>
+                                            <li> Each Canvas Panel is individually shrink wrapped to protect from dust and acidic contact.</li>
+                                            <li> Ideal for Oil and Acrylic Painting</li>
+                                            <li> Acid free Sizing</li>
+                                            <li> Available in a wide range of sizes upto 24” x 36”</li>
+                                        </ul>
+                                        <div class="table-wrap">
+                                            <div class="table-solo-leveling-wrapper">
+                                                <table class="table-solo-leveling">
+                                                    <tr>
+                                                        <td>Pack / Box</td>
+                                                        <td>10pcs, 12pcs, 15pcs, 20pcs, 36pcs (Customization is offered)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Shrink Pack</td>
+                                                        <td>Individual / Twin Pack / Multi Pack</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fabric Quality</td>
+                                                        <td>4oz, 5oz,6oz,7oz, 8oz,10oz</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Priming</td>
+                                                        <td>Double / Triple Primed</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fabric</td>
+                                                        <td>100% Cotton/100% Linen/Transparent Linen</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-stretcher-bar" role="tabpanel"
+                            aria-labelledby="pills-stretcher-bar-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ms-product-img">
+                                        <div class="ms-product-img-container">
+                                            <!-- Large Image -->
+                                            <div class="zoom-img-container">
+                                                <img src="/frontend/assets/images/products/canvas/stretcher-bar.jpg" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+                                            </div>
+                                            <!-- Thumbnails -->
+                                            <div class="ms-thumbnails">
+                                                <img src="/frontend/assets/images/products/canvas/stretcher-bar.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 ps-md-4">
+                                    <div class="product-content">
+                                        <div class="product-content-title">
+                                            <h6 class=" mb-2"><span>Canvas Division<span>></span> </span> Stretcher Bar</h6>
+                                            <h2 class="mt-4 fw-bold">Stretcher<span class="text-accent fw-bold"> Bar</span></h2>
+                                        </div>
+                                        <p>As dedicated manufacturers of stretcher bars, Indeutsch
+                                            Industries provides the essential foundation for artists to bring
+                                            their visions to life. We understand that a strong and stable
+                                            frame is crucial for stretching canvas and ensuring the longevity
+                                            of artwork. That's why we meticulously craft our stretcher bars
+                                            using sustainably sourced pine, high-grade wood and employ
+                                            precise manufacturing techniques to deliver exceptional quality
+                                            and reliability.
+                                        </p>
+                                        <ul>
+                                            <li> Wood: Pine Wood</li>
+                                            <li> Profile: 35mmx35mm,19x35mm,24x35mm,38x35mm</li>
+                                            <li> Can be customized as per requirement</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- Add HTML Here -->
                     </div>
                 </div>
