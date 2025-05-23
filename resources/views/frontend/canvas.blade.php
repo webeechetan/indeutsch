@@ -231,7 +231,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>Roll Width<br>available in<br>inches</td>
-                                                        <td>42”,52”, 63”, 72”, 84”</td>
+                                                        <td>42”, 52”, 63”, 72”, 84”</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Roll Length</td>
@@ -284,7 +284,7 @@
                                             <h6 class=" mb-2"><span>Canvas Division<span>></span> </span> Canvas Blankets</h6>
                                             <h2 class="mt-4 fw-bold">Canvas<span class="text-accent fw-bold"> Blankets</span></h2>
                                         </div>
-                                        <p>Our convenient, 100% cotton, loom-state(Wooven Cotton
+                                        <p>Our convenient, 100% cotton, loom-state (Wooven Cotton
                                             Fabric/non dyed) folded canvases come in a variety of lengths:
                                             1, 3, 5, and 6 yards. Each piece is individually wrapped and
                                             packaged for easy handling and storage. We offer unparalleled
@@ -346,7 +346,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>Wood Profile</td>
-                                                        <td>19x38mm, 24x 38mm,35 x 35mm , 51 x 35mm (Customization is<br>offered)</td>
+                                                        <td>19x38mm, 24x 38mm, 35 x 35mm , 51 x 35mm (Customization is offered)</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Priming</td>
@@ -362,7 +362,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>Fabric</td>
-                                                        <td>100% Cotton/100%Linen & Polycotton</td>
+                                                        <td>100% Cotton/100% Linen & Polycotton</td>
                                                     </tr>
                                                 </table>
                                             </div>
@@ -424,11 +424,11 @@
                                                     </tr>
                                                     <tr>
                                                         <td>Primed Colour variety</td>
-                                                        <td>White,Black& Pastel Colors</td>
+                                                        <td>White, Black & Pastel Colors</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Fabric</td>
-                                                        <td>100% Cotton/Polycotton/100%Linen</td>
+                                                        <td>100% Cotton/ Polycotton/100% Linen</td>
                                                     </tr>
                                                 </table>
                                             </div>
@@ -539,7 +539,7 @@
                                         </p>
                                         <ul>
                                             <li> Wood: Pine Wood</li>
-                                            <li> Profile: 35mmx35mm,19x35mm,24x35mm,38x35mm</li>
+                                            <li> Profile: 35mmx35mm, 19x35mm,24x35mm, 38x35mm</li>
                                             <li> Can be customized as per requirement</li>
                                         </ul>
                                     </div>
