@@ -7,7 +7,7 @@
                 <div class="new-banner-col-left">
                     <h2 class="title-wrap-20">Canvas Division
                     </h2>
-                    <p>Indeutsch is the Foremost Manufacturer and Exporter of HighQuality Canvas Products.
+                    <p>Indeutsch is the Foremost Manufacturer and Exporter of High Quality Canvas Products.
                         Our large-scale manufacturing facility, spanning 80,000 square
                         feet, possesses the capacity to prime 0.2 million linear meters
                         canvas per month.
@@ -358,11 +358,11 @@
                                                     </tr>
                                                     <tr>
                                                         <td>Frame<br>Support</td>
-                                                        <td>Single / Cross/Diamond</td>
+                                                        <td>Single / Cross / Diamond</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Fabric</td>
-                                                        <td>100% Cotton/100% Linen & Polycotton</td>
+                                                        <td>100% Cotton / 100% Linen & Polycotton</td>
                                                     </tr>
                                                 </table>
                                             </div>
@@ -428,7 +428,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>Fabric</td>
-                                                        <td>100% Cotton/ Polycotton/100% Linen</td>
+                                                        <td>100% Cotton / Polycotton / 100% Linen</td>
                                                     </tr>
                                                 </table>
                                             </div>
@@ -485,7 +485,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>Fabric Quality</td>
-                                                        <td>4oz, 5oz,6oz,7oz, 8oz,10oz</td>
+                                                        <td>4oz, 5oz, 6oz, 7oz, 8oz, 10oz</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Priming</td>
@@ -493,7 +493,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>Fabric</td>
-                                                        <td>100% Cotton/100% Linen/Transparent Linen</td>
+                                                        <td>100% Cotton / 100% Linen / Transparent Linen</td>
                                                     </tr>
                                                 </table>
                                             </div>
@@ -539,7 +539,7 @@
                                         </p>
                                         <ul>
                                             <li> Wood: Pine Wood</li>
-                                            <li> Profile: 35mmx35mm, 19x35mm,24x35mm, 38x35mm</li>
+                                            <li> Profile: 35mmx35mm, 19x35mm, 24x35mm, 38x35mm</li>
                                             <li> Can be customized as per requirement</li>
                                         </ul>
                                     </div>
