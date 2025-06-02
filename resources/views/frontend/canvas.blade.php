@@ -171,12 +171,8 @@
                                             operations. We are committed to constantly coming up with new improvements and adding new products to
                                             give our customers a competitive edge and a new experience.
                                         </p>
-                                        <p>We have an in-house & well-equipped infrastructure to produce Canvas Rolls, Stretched Canvas, Panels and
-                                            Canvas Pads. We produce stretched canvas with pine wood stretcher bars
-                                            We use 100% Virgin Cotton Yarn, 100% Virgin Linen Yarn and
-                                            Polyester Cotton Yarn as per norms
-                                            Our machines have different stages of priming which help to
-                                            achieve a smooth and universal primed canvas.</p>
+                                        <p>We have an in-house & well-equipped infrastructure to produce Canvas Rolls, Stretched Canvas, Panels, and Canvas Pads. We produce stretched canvas with pine wood stretcher bars. We use 100% Virgin Cotton Yarn, 100% Virgin Linen Yarn, and Polyester Cotton Yarn as per norms. Our machines have different stages of priming, which help to achieve a smooth and universal primed canvas.
+                                        </p>
                                         <p>Our canvas production is certified to ISO, PEFC, and REACH standards. We also adhere to ASTM D-4236
                                             (LHAMA) and are a member of the SEDEX Ethical Trade initiative.</p>
                                     </div>
@@ -284,13 +280,8 @@
                                             <h6 class=" mb-2"><span>Canvas Division<span>></span> </span> Canvas Blankets</h6>
                                             <h2 class="mt-4 fw-bold">Canvas<span class="text-accent fw-bold"> Blankets</span></h2>
                                         </div>
-                                        <p>Our convenient, 100% cotton, loom-state (Wooven Cotton
-                                            Fabric/non dyed) folded canvases come in a variety of lengths:
-                                            1, 3, 5, and 6 yards. Each piece is individually wrapped and
-                                            packaged for easy handling and storage. We offer unparalleled
-                                            customization options, allowing you to add personalized labels
-                                            to each piece and select from a wide range of widths, from 36
-                                            inches to 84” inches, to perfectly suit your project.</p>
+                                        <p>Our convenient, 100% cotton, loom-state (Woven Cotton Fabric/non-dyed) folded canvases come in a variety of lengths: 1, 3, 5, and 6 yards. Each piece is individually wrapped and packaged for easy handling and storage. We offer unparalleled customization options, allowing you to add personalized labels to each piece and select from a wide range of widths, from 36 inches to 84 inches, to perfectly suit your project.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -306,8 +297,14 @@
                                                 <img src="/frontend/assets/images/products/canvas/stretched-canvas.jpg" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
                                             </div>
                                             <!-- Thumbnails -->
-                                            <div class="ms-thumbnails">
+                                            <div class="ms-thumbnails scale-container">
                                                 <img src="/frontend/assets/images/products/canvas/stretched-canvas.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas6.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas7.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas3.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas2.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas4.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas5.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
                                             </div>
                                         </div>
                                     </div>
@@ -447,12 +444,12 @@
                                         <div class="ms-product-img-container">
                                             <!-- Large Image -->
                                             <div class="zoom-img-container">
-                                                <img src="/frontend/assets/images/products/canvas/canvas-panels-black.jpg" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-panels.jpg" loading="lazy" alt="Featured" id="ms-featured-img" class="ms-featured-img">
                                             </div>
                                             <!-- Thumbnails -->
                                             <div class="ms-thumbnails">
-                                                <img src="/frontend/assets/images/products/canvas/canvas-panels-black.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
-                                                <img src="/frontend/assets/images/products/canvas/canvas-panels-tirangle.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-panels.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-panels2.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
                                             </div>
                                         </div>
                                     </div>
@@ -517,6 +514,8 @@
                                             <!-- Thumbnails -->
                                             <div class="ms-thumbnails">
                                                 <img src="/frontend/assets/images/products/canvas/stretcher-bar.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/stretcher-bar2.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+
                                             </div>
                                         </div>
                                     </div>

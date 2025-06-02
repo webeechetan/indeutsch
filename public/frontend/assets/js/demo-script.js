@@ -787,3 +787,5 @@ $(document).ready(function () {
   $('.product-category-list:first').addClass('active');
   $('#components-pills-tabContent .tab-pane:first').addClass('show active');
 });
+
+/* Thumbnail Arrows */

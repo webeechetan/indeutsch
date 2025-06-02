@@ -2110,4 +2110,23 @@ $product-button-hover-color: #fff;
 #manufacturing-division-pad{
     padding: 20px;
 }
+.scale-container {
+  transform: scale(0.85);
+
+  @media (max-width: 1370px) {
+    transform: scale(0.7);
+  }
+
+  @media (max-width: 1200px) {
+    transform: scale(0.55);
+  }
+
+  @media (max-width: 992px) {
+    transform: scale(0.4);
+  }
+
+  @media (max-width: 767px) {   
+    transform: scale(0.5);
+  }
+}
 
