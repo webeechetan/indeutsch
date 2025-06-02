@@ -1,0 +1,23 @@
+.scale-container {
+  transform: scale(0.85);
+}
+@media (max-width: 1370px) {
+  .scale-container {
+    transform: scale(0.7);
+  }
+}
+@media (max-width: 1200px) {
+  .scale-container {
+    transform: scale(0.55);
+  }
+}
+@media (max-width: 992px) {
+  .scale-container {
+    transform: scale(0.4);
+  }
+}
+@media (max-width: 767px) {
+  .scale-container {
+    transform: scale(0.5);
+  }
+}
