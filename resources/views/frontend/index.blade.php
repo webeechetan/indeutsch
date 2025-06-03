@@ -159,7 +159,7 @@
 
                             <p>Enjoying a good reputation with a large number of customers, Indeutsch products can be found worldwide which includes North America, Europe, Australia, New Zealand, Middle East etc. </p>
 
-                            <p class="mb-0">Our company is extremely conscious of the environment. This is reflected in the raw material used and production processes. Indeutsch carries an array of various certifications for e.g. FSC certification, Green product certification, C-TPAT, ISO 9001, ISO14001, PEFC etc.</p>
+                            <p class="mb-0">Our company is extremely conscious of the environment. This is reflected in the raw material used and production processes. Indeutsch carries an array of various certifications for e.g. FSC certification, C-TPAT, ISO 9001, ISO14001, PEFC etc.</p>
 
                         </div>
 
