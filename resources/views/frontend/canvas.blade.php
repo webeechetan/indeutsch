@@ -305,6 +305,8 @@
                                                 <img src="/frontend/assets/images/products/canvas/stretched-canvas2.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
                                                 <img src="/frontend/assets/images/products/canvas/stretched-canvas4.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
                                                 <img src="/frontend/assets/images/products/canvas/stretched-canvas5.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+                                                <img src="/frontend/assets/images/products/canvas/stretched-canvas8.jpg" alt="Canvas Rolls" class="ms-thumbnail" onclick="changeImage(this)">
+
                                             </div>
                                         </div>
                                     </div>
