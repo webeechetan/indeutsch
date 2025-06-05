@@ -21,3 +21,11 @@
     transform: scale(0.4);
   }
 }
+table.table-solo-leveling thead tr th{
+      padding: 12px 20px 12px;
+}
+.table-solo-leveling-wrapper {
+  overflow-x: auto;
+  cursor: grab;
+}
+

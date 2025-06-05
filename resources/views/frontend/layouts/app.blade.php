@@ -110,7 +110,7 @@
     <script src="{{ asset('frontend') }}/assets/js/ScrollTrigger.min.js"></script>
     <script src="{{ asset('frontend') }}/assets/js/fancybox.min.js"></script>
     <script src="{{ asset('frontend') }}/assets/js/swiper.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('frontend') }}/assets/js/demo-script.js"></script>
 
 

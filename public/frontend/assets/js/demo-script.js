@@ -789,3 +789,129 @@ $(document).ready(function () {
 });
 
 /* Thumbnail Arrows */
+ document.addEventListener('DOMContentLoaded', function () {
+        // Scope JavaScript to the specific "Canvas Rolls" product tab
+        const canvasRollsProductSection = document.getElementById('pills-canvas-rolls');
+
+        // If this specific product section isn't on the page, don't run the script
+        if (!canvasRollsProductSection) {
+            // console.warn('Canvas Rolls product section #pills-canvas-rolls not found. Script for this section will not initialize.');
+            return;
+        }
+
+        const subTabsContainer = canvasRollsProductSection.querySelector('#canvasRollsSubTabs');
+        const featuredImg = canvasRollsProductSection.querySelector('#ms-featured-img');
+        const thumbnailsContainer = canvasRollsProductSection.querySelector('#ms-thumbnails-container');
+
+        // Ensure all necessary elements are found before proceeding
+        if (!subTabsContainer || !featuredImg || !thumbnailsContainer) {
+            // console.error('One or more key elements (subTabsContainer, featuredImg, thumbnailsContainer) not found within #pills-canvas-rolls.');
+            return;
+        }
+
+        // Updates images based on the active sub-tab
+        function updateProductVariantImages(activeTabButton) {
+            if (!activeTabButton) return; // Should not happen if called from event listener
+
+            const mainImageSrc = activeTabButton.dataset.mainImage;
+            const thumbnailsData = JSON.parse(activeTabButton.dataset.thumbnails || '[]');
+            const variantName = activeTabButton.textContent.trim();
+
+            // Update main featured image
+            if (mainImageSrc) {
+                featuredImg.src = mainImageSrc;
+                featuredImg.alt = `Featured image for ${variantName}`;
+            } else if (thumbnailsData.length > 0) {
+                featuredImg.src = thumbnailsData[0].src; // Fallback to first thumbnail
+                featuredImg.alt = `Featured image for ${variantName}`;
+            } else { // Fallback if no images are defined
+                featuredImg.src = 'https://placehold.co/600x400/e1e1e1/909090?text=Image+Not+Available';
+                featuredImg.alt = 'Image Not Available';
+            }
+
+            // Clear and repopulate thumbnails
+            thumbnailsContainer.innerHTML = '';
+            if (thumbnailsData.length > 0) {
+                thumbnailsData.forEach((thumbData, index) => {
+                    const img = document.createElement('img');
+                    img.src = thumbData.src;
+                    img.alt = thumbData.alt || `Thumbnail for ${variantName} ${index + 1}`;
+                    img.classList.add('ms-thumbnail');
+                    
+                    // Set the first thumbnail as active if its src matches the featured image
+                    if (index === 0 && featuredImg.src === thumbData.src) {
+                         img.classList.add('active-thumbnail');
+                    }
+
+                    img.onclick = function() {
+                        featuredImg.src = this.src;
+                        featuredImg.alt = this.alt;
+                        // Remove active class from all thumbnails in this specific container
+                        thumbnailsContainer.querySelectorAll('.ms-thumbnail').forEach(t => t.classList.remove('active-thumbnail'));
+                        // Add active class to the clicked one
+                        this.classList.add('active-thumbnail');
+                    };
+                    thumbnailsContainer.appendChild(img);
+                });
+            } else {
+                 // If the main image for the tab is the default canvas-rolls.png (initial state), show its thumbnail
+                if (featuredImg.src.includes('/frontend/assets/images/products/canvas/canvas-rolls.png')) {
+                    const defaultThumb = document.createElement('img');
+                    defaultThumb.src = '/frontend/assets/images/products/canvas/canvas-rolls.png';
+                    defaultThumb.alt = 'Canvas Rolls';
+                    defaultThumb.classList.add('ms-thumbnail', 'active-thumbnail');
+                    // No onclick needed if it's the only thumbnail and already displayed
+                    thumbnailsContainer.appendChild(defaultThumb);
+                } else {
+                    thumbnailsContainer.innerHTML = '<p class="text-muted small">No specific thumbnails for this variant.</p>';
+                }
+            }
+            // Ensure at least one thumbnail is active if thumbnails exist
+            if (thumbnailsContainer.querySelector('.ms-thumbnail') && !thumbnailsContainer.querySelector('.ms-thumbnail.active-thumbnail')) {
+                thumbnailsContainer.querySelector('.ms-thumbnail').classList.add('active-thumbnail');
+            }
+        }
+
+        // Event listener for sub-tab changes
+        const subTabButtons = subTabsContainer.querySelectorAll('button[data-bs-toggle="pill"]');
+        subTabButtons.forEach(button => {
+            button.addEventListener('shown.bs.tab', function (event) {
+                updateProductVariantImages(event.target); // event.target is the newly activated tab button
+            });
+        });
+
+        // Initialize images for the initially active sub-tab when the page loads
+        const activeSubTabButton = subTabsContainer.querySelector('button.active[data-bs-toggle="pill"]');
+        if (activeSubTabButton) {
+            updateProductVariantImages(activeSubTabButton);
+        }
+    });
+
+    //Mouse Grab
+document.querySelectorAll('.table-solo-leveling-wrapper').forEach((wrapper) => {
+  let isDragging = false;
+  let startX;
+  let scrollLeft;
+
+  wrapper.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.pageX - wrapper.offsetLeft;
+    scrollLeft = wrapper.scrollLeft;
+  });
+
+  wrapper.addEventListener('mouseleave', () => {
+    isDragging = false;
+  });
+
+  wrapper.addEventListener('mouseup', () => {
+    isDragging = false;
+  });
+
+  wrapper.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+    const x = e.pageX - wrapper.offsetLeft;
+    const walk = (x - startX) * 1; // control scroll speed
+    wrapper.scrollLeft = scrollLeft - walk;
+  });
+});
