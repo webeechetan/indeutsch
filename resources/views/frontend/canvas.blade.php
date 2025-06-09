@@ -209,6 +209,19 @@
                                             <li> Ideal for Oil and Acrylic Painting</li>
                                             <li> Acid free Sizing</li>
                                             <li> Gesso confirms to ASTM D-4236</li>
+                                            <li>Fabric Quality 4oz, 6oz, 7oz, 8oz, 10oz, 12oz, 14oz</li>
+                                            <li>Quality Double / Triple Primed</li>
+                                            <li>Roll Width available in inches 42”, 52”, 63”, 72”, 84”</li>
+                                            <li>
+                                                Roll Length 5 meters, 10 meters, 25 meters, 50 meters, 100 meters, 6 yard, 12
+                                                yard, 30 yard, 50 yard and 100 yard
+                                            </li>
+                                            <li>
+                                                Packing Outer Tube , Box packing & Bulk packing, Customized packaging is
+                                                offered upon request
+                                            </li>
+                                            <li>Primed colour variety White, Black, Grey & Transparent</li>
+
                                         </ul>
 
                                         <!-- INNER TABS FOR DIFFERENT TABLES/VARIANTS -->
@@ -217,570 +230,554 @@
                                                 <button class="nav-link active" id="pills-general-specs-tab" data-bs-toggle="pill" data-bs-target="#pills-general-specs-content" type="button" role="tab" aria-controls="pills-general-specs-content" aria-selected="true"
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls.png"
                                                     data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Canvas Rolls General"}]'>
-                                                    Canvas Rolls
+                                                    Unprimed Cotton
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                                 <button class="nav-link" id="pills-unprimed-tab" data-bs-toggle="pill" data-bs-target="#pills-unprimed-content" type="button" role="tab" aria-controls="pills-unprimed-content" aria-selected="false"
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls.png"
                                                     data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Unprimed Canvas"}]'>
-                                                    Unprimed Canvas
+                                                    Unprimed Linen
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                                 <button class="nav-link" id="pills-primed-linen-tab" data-bs-toggle="pill" data-bs-target="#pills-primed-linen-content" type="button" role="tab" aria-controls="pills-primed-linen-content" aria-selected="false"
-                                                    data-main-image="/frontend/assets/images/products/canvas/canvas-rolls-linen.jpg"
-                                                    data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls-linen.jpg", "alt":"Primed Linen Canvas"}]'>
-                                                    Primed Linen
+                                                    data-main-image="/frontend/assets/images/products/canvas/canvas-rolls-linen1.jpg"
+                                                    data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls-linen1.jpg", "alt":"Primed Linen Canvas"}]'>
+                                                    Linen Primed
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                                 <button class="nav-link" id="pills-primed-polycotton-tab" data-bs-toggle="pill" data-bs-target="#pills-primed-polycotton-content" type="button" role="tab" aria-controls="pills-primed-polycotton-content" aria-selected="false"
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls-polycotton.jpg"
                                                     data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls-polycotton.jpg", "alt":"Primed Poly-Cotton"}]'>
-                                                    Primed Poly-Cotton
+                                                    Poly-Cotton Primed
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                                 <button class="nav-link" id="pills-premium-canvas-tab" data-bs-toggle="pill" data-bs-target="#pills-premium-canvas-content" type="button" role="tab" aria-controls="pills-premium-canvas-content" aria-selected="false"
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls.png"
                                                     data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Premium Canvas"}]'>
-                                                    Premium Canvas
+                                                    Cotton Primed
                                                 </button>
                                             </li>
                                         </ul>
 
-                                        <div class="tab-content" id="canvasRollsSubTabContent">
-                                            <!-- SUB-TAB PANE 0: General Specifications (Your original table) -->
-                                            <div class="tab-pane fade show active" id="pills-general-specs-content" role="tabpanel" aria-labelledby="pills-general-specs-tab">
-                                                <div class="table-wrap">
-                                                    <div class="table-solo-leveling-wrapper">
-                                                        <table class="table-solo-leveling table table-striped table-hover">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>Priming</td>
-                                                                    <td>Acrylic Titanium Gesso</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Fabric Quality</td>
-                                                                    <td>4oz, 6oz, 7oz, 8oz, 10oz, 12oz, 14oz</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Quality</td>
-                                                                    <td>Double / Triple Primed</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Roll Width<br>available in<br>inches</td>
-                                                                    <td>42”, 52”, 63”, 72”, 84”</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Roll Length</td>
-                                                                    <td>5 meters, 10 meters, 25 meters, 50 meters,<br>100 meters, 6 yard, 12 yard, 30 yard, 50 yard<br>and 100 yard</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Packing</td>
-                                                                    <td>Outer Tube , Box packing & Bulk packing, Customized<br>packaging is offered upon request</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Primed Colour<br>variety</td>
-                                                                    <td>White, Black, Grey & Transparent</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
 
-                                            <!-- SUB-TAB PANE 1: Unprimed Canvas -->
-                                            <div class="tab-pane fade" id="pills-unprimed-content" role="tabpanel" aria-labelledby="pills-unprimed-tab">
-                                                <div class="table-wrap">
-                                                    <div class="table-solo-leveling-wrapper">
-                                                        <table class="table-solo-leveling">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>S No.</th>
-                                                                    <th>Product Code</th>
-                                                                    <th>Fabric</th>
-                                                                    <th>Weave</th>
-                                                                    <th>Weight (gsm)</th>
-                                                                    <th>Grain</th>
-                                                                    <th>Width (inches)</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>CTRF04105</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>Plain</td>
-                                                                    <td>105</td>
-                                                                    <td>Fine</td>
-                                                                    <td>72'' , 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>CTRF05120</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>Plain</td>
-                                                                    <td>120</td>
-                                                                    <td>Medium</td>
-                                                                    <td>72''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>CTRF06170</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>Oxford</td>
-                                                                    <td>170</td>
-                                                                    <td>Medium</td>
-                                                                    <td>63'' , 72''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>CTRF07200</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>Oxford</td>
-                                                                    <td>200</td>
-                                                                    <td>Medium</td>
-                                                                    <td>60'' , 72'' , 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>CTRF08225</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>Oxford</td>
-                                                                    <td>225</td>
-                                                                    <td>Medium</td>
-                                                                    <td>63'' , 72'' , 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>CTRF10305</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>Oxford</td>
-                                                                    <td>305</td>
-                                                                    <td>Medium</td>
-                                                                    <td>36'' , 48'' ,56'' , 60'' , 72'' , 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td>CTRF12380</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>Plain</td>
-                                                                    <td>380</td>
-                                                                    <td>Coarse</td>
-                                                                    <td>60'', 72'' , 84'' , 96'' , 120''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>8</td>
-                                                                    <td>CTRF15495</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>Plain</td>
-                                                                    <td>495</td>
-                                                                    <td>Coarse</td>
-                                                                    <td>56'' , 72'' , 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>9</td>
-                                                                    <td>LNRF06160</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>Plain</td>
-                                                                    <td>160</td>
-                                                                    <td>Fine</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>10</td>
-                                                                    <td>LNRF08225</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>Plain</td>
-                                                                    <td>225</td>
-                                                                    <td>Medium</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>11</td>
-                                                                    <td>LNRF10270</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>Plain</td>
-                                                                    <td>270</td>
-                                                                    <td>Medium</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>12</td>
-                                                                    <td>LNRF12360</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>Matty</td>
-                                                                    <td>360</td>
-                                                                    <td>Coarse</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- SUB-TAB PANE 2: Primed Linen Canvas -->
-                                            <div class="tab-pane fade" id="pills-primed-linen-content" role="tabpanel" aria-labelledby="pills-primed-linen-tab">
-                                                <div class="table-wrap">
-                                                    <div class="table-solo-leveling-wrapper">
-                                                        <table class="table-solo-leveling">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>S No.</th>
-                                                                    <th>Product Code</th>
-                                                                    <th>Finish</th>
-                                                                    <th>Fabric</th>
-                                                                    <th>Weight (gsm)</th>
-                                                                    <th>Grain</th>
-                                                                    <th>Width (inches)</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>LN06480240</td>
-                                                                    <td>Transparent Primed</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>240</td>
-                                                                    <td>Fine</td>
-                                                                    <td>84"</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>LN06480400</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>400</td>
-                                                                    <td>Fine</td>
-                                                                    <td>84"</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>LN08300450</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>450</td>
-                                                                    <td>Medium</td>
-                                                                    <td>84"</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>LN08300490</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>490</td>
-                                                                    <td>Medium</td>
-                                                                    <td>84"</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>LN10180560</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>560</td>
-                                                                    <td>Medium</td>
-                                                                    <td>84"</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>LN12260700</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Linen</td>
-                                                                    <td>700</td>
-                                                                    <td>Coarse</td>
-                                                                    <td>84"</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- SUB-TAB PANE 3: Primed Poly-Cotton Canvas -->
-                                            <div class="tab-pane fade" id="pills-primed-polycotton-content" role="tabpanel" aria-labelledby="pills-primed-polycotton-tab">
-                                                <div class="table-wrap">
-                                                    <div class="table-solo-leveling-wrapper">
-                                                        <table class="table-solo-leveling">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>S No.</th>
-                                                                    <th>Product Code</th>
-                                                                    <th>Finish</th>
-                                                                    <th>Fabric</th>
-                                                                    <th>Weight (gsm)</th>
-                                                                    <th>Grain</th>
-                                                                    <th>Width (inches)</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>PC00050280</td>
-                                                                    <td>White -Primed</td>
-                                                                    <td>Poly-Cotton Ring Spun</td>
-                                                                    <td>280</td>
-                                                                    <td>Medium</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td> PC05120350</td>
-                                                                    <td>White -Primed</td>
-                                                                    <td>Poly-Cotton</td>
-                                                                    <td>350</td>
-                                                                    <td>Medium</td>
-                                                                    <td>72'' , 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td> PC00060320</td>
-                                                                    <td>White -Primed</td>
-                                                                    <td>Poly-Cotton</td>
-                                                                    <td>320</td>
-                                                                    <td>Coarse</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td> PC00820500</td>
-                                                                    <td>White -Primed</td>
-                                                                    <td>Poly-Cotton</td>
-                                                                    <td>500</td>
-                                                                    <td>Ultra-Smooth</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td> PCLL060350</td>
-                                                                    <td>Primed - Linen Look</td>
-                                                                    <td>Poly-Cotton</td>
-                                                                    <td>350</td>
-                                                                    <td>Coarse</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td> PCLL050380</td>
-                                                                    <td>Primed - Linen Look</td>
-                                                                    <td>Poly-Cotton</td>
-                                                                    <td>380</td>
-                                                                    <td>Medium</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td> PCLL120560</td>
-                                                                    <td>Primed - Linen Look</td>
-                                                                    <td>Poly-Cotton</td>
-                                                                    <td>560</td>
-                                                                    <td>Ultra-Smooth</td>
-                                                                    <td>84''</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- SUB-TAB PANE 4: Premium Canvas -->
-                                            <div class="tab-pane fade" id="pills-premium-canvas-content" role="tabpanel" aria-labelledby="pills-premium-canvas-tab">
-                                                <div class="table-wrap">
-                                                    <div class="table-solo-leveling-wrapper">
-                                                        <table class="table-solo-leveling">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>S No.</th>
-                                                                    <th>Product Code</th>
-                                                                    <th>Finish</th>
-                                                                    <th>Fabric</th>
-                                                                    <th>Weight (gsm)</th>
-                                                                    <th>Grain</th>
-                                                                    <th>Width (inches)</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>1</td>
-                                                                    <td>CTW0430320</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>320</td>
-                                                                    <td>Very Fine</td>
-                                                                    <td>72''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>2</td>
-                                                                    <td>CT04160240</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>240</td>
-                                                                    <td>Fine</td>
-                                                                    <td>72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>3</td>
-                                                                    <td>CT04160280</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>280</td>
-                                                                    <td>Fine</td>
-                                                                    <td>72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>4</td>
-                                                                    <td>CT05120280</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>280</td>
-                                                                    <td>Medium</td>
-                                                                    <td>72''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5</td>
-                                                                    <td>CT07100340</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>340</td>
-                                                                    <td>Medium</td>
-                                                                    <td>60'', 72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6</td>
-                                                                    <td>CT07100380</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>380</td>
-                                                                    <td>Medium</td>
-                                                                    <td>60'', 72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7</td>
-                                                                    <td>CT08080360</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>360</td>
-                                                                    <td>Medium</td>
-                                                                    <td>63'', 72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>8</td>
-                                                                    <td>CT08080410</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>410</td>
-                                                                    <td>Medium</td>
-                                                                    <td>63'', 72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>9</td>
-                                                                    <td>CT10070430</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>430</td>
-                                                                    <td>Medium</td>
-                                                                    <td>56'', 60'', 72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>10</td>
-                                                                    <td>CT10070450</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>450</td>
-                                                                    <td>Medium</td>
-                                                                    <td>56'', 60'', 72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>11</td>
-                                                                    <td>CT10070480</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>480</td>
-                                                                    <td>Medium</td>
-                                                                    <td>56'', 60'', 72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>12</td>
-                                                                    <td>CT12210540</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>540</td>
-                                                                    <td>Coarse</td>
-                                                                    <td>72'', 84''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>13</td>
-                                                                    <td>CT15207700</td>
-                                                                    <td>White Primed</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>700</td>
-                                                                    <td>Coarse</td>
-                                                                    <td>56'', 72'', 84''</td>
-                                                                </tr>
-
-                                                                <!-- Coloured Canvas Section -->
-                                                                <tr>
-                                                                    <td colspan="7" style="text-align: center; font-weight: bold;">Coloured Canvas</td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td>14</td>
-                                                                    <td>CTOG710340</td>
-                                                                    <td>Orange</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>340</td>
-                                                                    <td>Medium</td>
-                                                                    <td>72''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>15</td>
-                                                                    <td>CTGN710340</td>
-                                                                    <td>Green</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>340</td>
-                                                                    <td>Medium</td>
-                                                                    <td>72''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>16</td>
-                                                                    <td>CTGY710340</td>
-                                                                    <td>Grey</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>340</td>
-                                                                    <td>Medium</td>
-                                                                    <td>72''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>17</td>
-                                                                    <td>CTOV710340</td>
-                                                                    <td>Olive</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>340</td>
-                                                                    <td>Medium</td>
-                                                                    <td>72''</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>18</td>
-                                                                    <td>CTB0710340</td>
-                                                                    <td>Black</td>
-                                                                    <td>100% Cotton</td>
-                                                                    <td>340</td>
-                                                                    <td>Medium</td>
-                                                                    <td>60''</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                        </div> <!-- End of sub-tab-content -->
                                     </div> <!-- End of product-content -->
                                 </div> <!-- End of col-md-6 ps-md-4 -->
                             </div> <!-- End of row -->
+                            <div class="tab-content mt-5" id="canvasRollsSubTabContent">
+                                <!-- SUB-TAB PANE 0: General Specifications (Your original table) -->
+                                <div class="tab-pane fade show active" id="pills-general-specs-content" role="tabpanel" aria-labelledby="pills-general-specs-tab">
+                                    <div class="table-wrap">
+                                        <div class="table-solo-leveling-wrapper">
+                                            <table class="table-solo-leveling">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S No.</th>
+                                                        <th>Product Code</th>
+                                                        <th>Fabric</th>
+                                                        <th>Weave</th>
+                                                        <th>Weight (gsm)</th>
+                                                        <th>Grain</th>
+                                                        <th>Width (inches)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>CTRF04105</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>Plain</td>
+                                                        <td>105</td>
+                                                        <td>Fine</td>
+                                                        <td>72'' , 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>CTRF05120</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>Plain</td>
+                                                        <td>120</td>
+                                                        <td>Medium</td>
+                                                        <td>72''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>CTRF06170</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>Oxford</td>
+                                                        <td>170</td>
+                                                        <td>Medium</td>
+                                                        <td>63'' , 72''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>CTRF07200</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>Oxford</td>
+                                                        <td>200</td>
+                                                        <td>Medium</td>
+                                                        <td>60'' , 72'' , 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>CTRF08225</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>Oxford</td>
+                                                        <td>225</td>
+                                                        <td>Medium</td>
+                                                        <td>63'' , 72'' , 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>CTRF10305</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>Oxford</td>
+                                                        <td>305</td>
+                                                        <td>Medium</td>
+                                                        <td>36'' , 48'' ,56'' , 60'' , 72'' , 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>CTRF12380</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>Plain</td>
+                                                        <td>380</td>
+                                                        <td>Coarse</td>
+                                                        <td>60'', 72'' , 84'' , 96'' , 120''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>CTRF15495</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>Plain</td>
+                                                        <td>495</td>
+                                                        <td>Coarse</td>
+                                                        <td>56'' , 72'' , 84''</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SUB-TAB PANE 1: Unprimed Canvas -->
+                                <div class="tab-pane fade" id="pills-unprimed-content" role="tabpanel" aria-labelledby="pills-unprimed-tab">
+                                    <div class="table-wrap">
+                                        <div class="table-solo-leveling-wrapper">
+                                            <table class="table-solo-leveling">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S No.</th>
+                                                        <th>Product Code</th>
+                                                        <th>Fabric</th>
+                                                        <th>Weave</th>
+                                                        <th>Weight (gsm)</th>
+                                                        <th>Grain</th>
+                                                        <th>Width (inches)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>LNRF06160</td>
+                                                        <td>100% Linen</td>
+                                                        <td>Plain</td>
+                                                        <td>160</td>
+                                                        <td>Fine</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>LNRF08225</td>
+                                                        <td>100% Linen</td>
+                                                        <td>Plain</td>
+                                                        <td>225</td>
+                                                        <td>Medium</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>LNRF10270</td>
+                                                        <td>100% Linen</td>
+                                                        <td>Plain</td>
+                                                        <td>270</td>
+                                                        <td>Medium</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>LNRF12360</td>
+                                                        <td>100% Linen</td>
+                                                        <td>Matty</td>
+                                                        <td>360</td>
+                                                        <td>Coarse</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SUB-TAB PANE 2: Primed Linen Canvas -->
+                                <div class="tab-pane fade" id="pills-primed-linen-content" role="tabpanel" aria-labelledby="pills-primed-linen-tab">
+                                    <div class="table-wrap">
+                                        <div class="table-solo-leveling-wrapper">
+                                            <table class="table-solo-leveling">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S No.</th>
+                                                        <th>Product Code</th>
+                                                        <th>Finish</th>
+                                                        <th>Fabric</th>
+                                                        <th>Weight (gsm)</th>
+                                                        <th>Grain</th>
+                                                        <th>Width (inches)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>LN06480240</td>
+                                                        <td>Transparent Primed</td>
+                                                        <td>100% Linen</td>
+                                                        <td>240</td>
+                                                        <td>Fine</td>
+                                                        <td>84"</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>LN06480400</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Linen</td>
+                                                        <td>400</td>
+                                                        <td>Fine</td>
+                                                        <td>84"</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>LN08300450</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Linen</td>
+                                                        <td>450</td>
+                                                        <td>Medium</td>
+                                                        <td>84"</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>LN08300490</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Linen</td>
+                                                        <td>490</td>
+                                                        <td>Medium</td>
+                                                        <td>84"</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>LN10180560</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Linen</td>
+                                                        <td>560</td>
+                                                        <td>Medium</td>
+                                                        <td>84"</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>LN12260700</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Linen</td>
+                                                        <td>700</td>
+                                                        <td>Coarse</td>
+                                                        <td>84"</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SUB-TAB PANE 3: Primed Poly-Cotton Canvas -->
+                                <div class="tab-pane fade" id="pills-primed-polycotton-content" role="tabpanel" aria-labelledby="pills-primed-polycotton-tab">
+                                    <div class="table-wrap">
+                                        <div class="table-solo-leveling-wrapper">
+                                            <table class="table-solo-leveling">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S No.</th>
+                                                        <th>Product Code</th>
+                                                        <th>Finish</th>
+                                                        <th>Fabric</th>
+                                                        <th>Weight (gsm)</th>
+                                                        <th>Grain</th>
+                                                        <th>Width (inches)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>PC00050280</td>
+                                                        <td>White -Primed</td>
+                                                        <td>Poly-Cotton Ring Spun</td>
+                                                        <td>280</td>
+                                                        <td>Medium</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td> PC05120350</td>
+                                                        <td>White -Primed</td>
+                                                        <td>Poly-Cotton</td>
+                                                        <td>350</td>
+                                                        <td>Medium</td>
+                                                        <td>72'' , 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td> PC00060320</td>
+                                                        <td>White -Primed</td>
+                                                        <td>Poly-Cotton</td>
+                                                        <td>320</td>
+                                                        <td>Coarse</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td> PC00820500</td>
+                                                        <td>White -Primed</td>
+                                                        <td>Poly-Cotton</td>
+                                                        <td>500</td>
+                                                        <td>Ultra-Smooth</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td> PCLL060350</td>
+                                                        <td>Primed - Linen Look</td>
+                                                        <td>Poly-Cotton</td>
+                                                        <td>350</td>
+                                                        <td>Coarse</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td> PCLL050380</td>
+                                                        <td>Primed - Linen Look</td>
+                                                        <td>Poly-Cotton</td>
+                                                        <td>380</td>
+                                                        <td>Medium</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td> PCLL120560</td>
+                                                        <td>Primed - Linen Look</td>
+                                                        <td>Poly-Cotton</td>
+                                                        <td>560</td>
+                                                        <td>Ultra-Smooth</td>
+                                                        <td>84''</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SUB-TAB PANE 4: Premium Canvas -->
+                                <div class="tab-pane fade" id="pills-premium-canvas-content" role="tabpanel" aria-labelledby="pills-premium-canvas-tab">
+                                    <div class="table-wrap">
+                                        <div class="table-solo-leveling-wrapper">
+                                            <table class="table-solo-leveling">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S No.</th>
+                                                        <th>Product Code</th>
+                                                        <th>Finish</th>
+                                                        <th>Fabric</th>
+                                                        <th>Weight (gsm)</th>
+                                                        <th>Grain</th>
+                                                        <th>Width (inches)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>CTW0430320</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>320</td>
+                                                        <td>Very Fine</td>
+                                                        <td>72''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>CT04160240</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>240</td>
+                                                        <td>Fine</td>
+                                                        <td>72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>CT04160280</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>280</td>
+                                                        <td>Fine</td>
+                                                        <td>72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>CT05120280</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>280</td>
+                                                        <td>Medium</td>
+                                                        <td>72''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>CT07100340</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>340</td>
+                                                        <td>Medium</td>
+                                                        <td>60'', 72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>CT07100380</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>380</td>
+                                                        <td>Medium</td>
+                                                        <td>60'', 72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>CT08080360</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>360</td>
+                                                        <td>Medium</td>
+                                                        <td>63'', 72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>CT08080410</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>410</td>
+                                                        <td>Medium</td>
+                                                        <td>63'', 72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>9</td>
+                                                        <td>CT10070430</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>430</td>
+                                                        <td>Medium</td>
+                                                        <td>56'', 60'', 72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td>CT10070450</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>450</td>
+                                                        <td>Medium</td>
+                                                        <td>56'', 60'', 72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11</td>
+                                                        <td>CT10070480</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>480</td>
+                                                        <td>Medium</td>
+                                                        <td>56'', 60'', 72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>12</td>
+                                                        <td>CT12210540</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>540</td>
+                                                        <td>Coarse</td>
+                                                        <td>72'', 84''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>13</td>
+                                                        <td>CT15207700</td>
+                                                        <td>White Primed</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>700</td>
+                                                        <td>Coarse</td>
+                                                        <td>56'', 72'', 84''</td>
+                                                    </tr>
+
+                                                    <!-- Coloured Canvas Section -->
+                                                    <tr>
+                                                        <td colspan="7" style="text-align: center; font-weight: bold;">Coloured Canvas</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>14</td>
+                                                        <td>CTOG710340</td>
+                                                        <td>Orange</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>340</td>
+                                                        <td>Medium</td>
+                                                        <td>72''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>15</td>
+                                                        <td>CTGN710340</td>
+                                                        <td>Green</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>340</td>
+                                                        <td>Medium</td>
+                                                        <td>72''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>16</td>
+                                                        <td>CTGY710340</td>
+                                                        <td>Grey</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>340</td>
+                                                        <td>Medium</td>
+                                                        <td>72''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>17</td>
+                                                        <td>CTOV710340</td>
+                                                        <td>Olive</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>340</td>
+                                                        <td>Medium</td>
+                                                        <td>72''</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>18</td>
+                                                        <td>CTB0710340</td>
+                                                        <td>Black</td>
+                                                        <td>100% Cotton</td>
+                                                        <td>340</td>
+                                                        <td>Medium</td>
+                                                        <td>60''</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- End of sub-tab-content -->
                         </div>
                         <div class="tab-pane fade" id="pills-canvas-blankets" role="tabpanel"
                             aria-labelledby="pills-canvas-blankets-tab">
