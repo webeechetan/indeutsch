@@ -233,7 +233,7 @@
                                                 <button class="nav-link active" id="pills-general-specs-tab" data-bs-toggle="pill" data-bs-target="#pills-general-specs-content" type="button" role="tab" aria-controls="pills-general-specs-content" aria-selected="true"
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls.png"
                                                     data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Canvas Rolls"},
-                                                    {"src":"/frontend/assets/images/products/canvas/canvas-rolls2.jpg", "alt":"Canvas Rolls"}
+                                                    {"src":"/frontend/assets/images/products/canvas/canvas-rolls2.jpg", "alt":"Canvas Rolls"},
                                                     {"src":"/frontend/assets/images/products/canvas/canvas-rolls3.jpg", "alt":"Canvas Rolls"}
                                                     ]'>
                                                     Unprimed Cotton
