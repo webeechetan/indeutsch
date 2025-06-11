@@ -191,6 +191,7 @@
                                             <div class="ms-thumbnails" id="ms-thumbnails-container">
                                                 <!-- Thumbnails will be dynamically populated by JS -->
                                                 <img src="/frontend/assets/images/products/canvas/canvas-rolls.png" alt="Canvas Rolls" class="ms-thumbnail active-thumbnail">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-rolls2.jpg" alt="Canvas Rolls" class="ms-thumbnail active-thumbnail">
                                             </div>
                                         </div>
                                     </div>
@@ -229,14 +230,23 @@
                                             <li class="nav-item" role="presentation">
                                                 <button class="nav-link active" id="pills-general-specs-tab" data-bs-toggle="pill" data-bs-target="#pills-general-specs-content" type="button" role="tab" aria-controls="pills-general-specs-content" aria-selected="true"
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls.png"
-                                                    data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Canvas Rolls General"}]'>
+                                                    data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Canvas Rolls"},
+                                                    {"src":"/frontend/assets/images/products/canvas/canvas-rolls2.jpg", "alt":"Canvas Rolls"}
+                                                    ]'>
                                                     Unprimed Cotton
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-premium-canvas-tab" data-bs-toggle="pill" data-bs-target="#pills-premium-canvas-content" type="button" role="tab" aria-controls="pills-premium-canvas-content" aria-selected="false"
+                                                    data-main-image="/frontend/assets/images/products/canvas/canvas-rolls-cotton-primed.jpg"
+                                                    data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls-cotton-primed.jpg", "alt":"Premium Canvas"}]'>
+                                                    Primed Cotton 
+                                                </button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
                                                 <button class="nav-link" id="pills-unprimed-tab" data-bs-toggle="pill" data-bs-target="#pills-unprimed-content" type="button" role="tab" aria-controls="pills-unprimed-content" aria-selected="false"
-                                                    data-main-image="/frontend/assets/images/products/canvas/canvas-rolls.png"
-                                                    data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Unprimed Canvas"}]'>
+                                                    data-main-image="/frontend/assets/images/products/canvas/canvas-rolls-unprimed-linen.jpg"
+                                                    data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls-unprimed-linen.jpg", "alt":"Unprimed Canvas"}]'>
                                                     Unprimed Linen
                                                 </button>
                                             </li>
@@ -244,21 +254,14 @@
                                                 <button class="nav-link" id="pills-primed-linen-tab" data-bs-toggle="pill" data-bs-target="#pills-primed-linen-content" type="button" role="tab" aria-controls="pills-primed-linen-content" aria-selected="false"
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls-linen1.jpg"
                                                     data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls-linen1.jpg", "alt":"Primed Linen Canvas"}]'>
-                                                    Linen Primed
+                                                    Primed Linen 
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                                 <button class="nav-link" id="pills-primed-polycotton-tab" data-bs-toggle="pill" data-bs-target="#pills-primed-polycotton-content" type="button" role="tab" aria-controls="pills-primed-polycotton-content" aria-selected="false"
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls-polycotton.jpg"
                                                     data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls-polycotton.jpg", "alt":"Primed Poly-Cotton"}]'>
-                                                    Poly-Cotton Primed
-                                                </button>
-                                            </li>
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="pills-premium-canvas-tab" data-bs-toggle="pill" data-bs-target="#pills-premium-canvas-content" type="button" role="tab" aria-controls="pills-premium-canvas-content" aria-selected="false"
-                                                    data-main-image="/frontend/assets/images/products/canvas/canvas-rolls.png"
-                                                    data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Premium Canvas"}]'>
-                                                    Cotton Primed
+                                                   Primed Poly-Cotton 
                                                 </button>
                                             </li>
                                         </ul>

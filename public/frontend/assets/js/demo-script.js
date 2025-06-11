@@ -915,3 +915,27 @@ document.querySelectorAll('.table-solo-leveling-wrapper').forEach((wrapper) => {
     wrapper.scrollLeft = scrollLeft - walk;
   });
 });
+//Scroll to tab
+document.addEventListener('DOMContentLoaded', function () {
+    const tabContainer = document.querySelector('#canvasRollsSubTabs');
+    const tabContent = document.querySelector('#canvasRollsSubTabContent');
+
+    if (tabContainer) {
+        const tabButtons = tabContainer.querySelectorAll('.nav-link');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('shown.bs.tab', function (event) {
+                const targetPaneId = event.target.getAttribute('data-bs-target');
+                const targetPane = document.querySelector(targetPaneId);
+
+                if (targetPane) {
+                    // Smoothly scroll the tab content into view
+                    targetPane.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    }
+});
