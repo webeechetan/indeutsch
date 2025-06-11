@@ -192,6 +192,8 @@
                                                 <!-- Thumbnails will be dynamically populated by JS -->
                                                 <img src="/frontend/assets/images/products/canvas/canvas-rolls.png" alt="Canvas Rolls" class="ms-thumbnail active-thumbnail">
                                                 <img src="/frontend/assets/images/products/canvas/canvas-rolls2.jpg" alt="Canvas Rolls" class="ms-thumbnail active-thumbnail">
+                                                <img src="/frontend/assets/images/products/canvas/canvas-rolls3.jpg" alt="Canvas Rolls" class="ms-thumbnail active-thumbnail">
+
                                             </div>
                                         </div>
                                     </div>
@@ -232,6 +234,7 @@
                                                     data-main-image="/frontend/assets/images/products/canvas/canvas-rolls.png"
                                                     data-thumbnails='[{"src":"/frontend/assets/images/products/canvas/canvas-rolls.png", "alt":"Canvas Rolls"},
                                                     {"src":"/frontend/assets/images/products/canvas/canvas-rolls2.jpg", "alt":"Canvas Rolls"}
+                                                    {"src":"/frontend/assets/images/products/canvas/canvas-rolls3.jpg", "alt":"Canvas Rolls"}
                                                     ]'>
                                                     Unprimed Cotton
                                                 </button>
