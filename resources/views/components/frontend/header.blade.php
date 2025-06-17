@@ -42,7 +42,7 @@
 
                             <li><a class="{{ Route::is('components') ? 'active' : '' }}" href="{{ route('components') }}">Components</a></li>
                             
-                            <li><a class="#">Canvas</a></li>
+                            <li><a class="{{ Route::is('canvas') ? 'active' : '' }}" href="{{ route('canvas') }}">Canvas</a></li>
 <!-- 
                             <li><a class="{{ Route::is('canvas') ? 'active' : '' }}" href="{{ route('canvas') }}">Canvas</a></li> -->
 
