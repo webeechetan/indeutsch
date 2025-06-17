@@ -151,10 +151,7 @@
                                             the world. </p>
                                         <p>Our manufacturing capabilities support high-volume orders and
                                             provide access to a diverse range of filaments, including high
-                                            performance synthetic mixtures. We excel at creating
-                                            customized brushes, offering flexibility in hair shape, handle &
-                                            ferrule design packaging options in order to meet your unique
-                                            requirements.</p>
+                                            performance synthetic mixtures. We excel at creating customized brushes, offering flexibility in hair shape, handle and ferrule design, and packaging options to meet your unique requirements.</p>
                                     </div>
                                 </div>
                             </div>
