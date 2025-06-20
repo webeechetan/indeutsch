@@ -769,7 +769,7 @@
 
                         <div class="swiper-slide cursor-view">
 
-                            <a href="#" class="pro_slider-item">
+                            <a class="{{ Route::is('canvas') ? 'active' : '' }} pro_slider-item" href="{{ route('canvas') }}">
 
                                 <div class="pro_slider-item-overlay"></div>
 
