@@ -78,7 +78,7 @@
 						<li><a href="{{route('brushes')}}">Brushes</a></li>
 						<!-- <li><a href="{{route('artistCanvas')}}">Artist Canvas</a></li> -->
 						<li><a href="{{route('artAccessories')}}">Art Accessories</a></li>
-						<!-- <li><a href="printingcanvas.php">Printing Canvas</a></li> -->
+						<li><a href="{{route('canvas')}}">Canvas</a></li>
 					</ul>
 				</div>
 			</div>

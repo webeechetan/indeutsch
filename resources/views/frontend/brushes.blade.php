@@ -86,8 +86,8 @@
                         <li><a class="{{ Route::is('components') ? 'active' : '' }}" href="{{ route('components') }}">Components</a></li>
                         <!-- <li><a href="{{route('artistCanvas')}}">Artist Canvas</a>
 						</li> -->
-                        <!-- <li><a href="printingcanvas.php">Printing Canvas</a>
-						</li> -->
+                        <li><a href="{{route('canvas')}}">Canvas</a>
+						</li>
                     </ul>
                 </div>
             </div>
